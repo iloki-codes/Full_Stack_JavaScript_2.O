@@ -1,0 +1,1238 @@
+body{
+    font-family: 'arial black';
+    background: #ffffff;
+}
+
+img.bgimg{
+    position: relative;
+    top: 0; 
+    z-index: -1;
+    width: 100%;
+    filter: brightness(50%);
+    height: 750px;
+}
+
+img.logo.one{
+    position: absolute;
+    top: 0;
+    left: 90px;
+    z-index: 0;
+    height: 150px;
+    width: 200px;
+    margin: 0; 
+}
+
+ul.nav{
+    display: flex;
+    position: absolute;
+    top: 45px;
+    left: 420px;
+    z-index: 0;
+    gap: 50px;
+}
+ul.nav li{
+    list-style-type: none;
+    -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   transform: translate(-50%, -50%);
+}
+ul.nav li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'arial';
+}
+ul.sign{
+    position: absolute;
+    top: 40px;
+    right: 90px;
+    display: flex;
+    z-index: 0;
+    gap: 20px;
+}
+ul.sign li{
+    list-style-type: none;
+}
+ul.sign li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'arial';
+    font-size: 20px;
+}
+ul.sign a.signup{
+    background: #f75828e7;
+    padding: 15px 30px;
+    border: none;
+}
+p.one{
+    position: absolute;
+    top: 200px;
+    left: 90px;
+    color: #ffffff;
+    font-size: 50px;
+    z-index: 0;
+
+}
+
+p.two{
+    position: absolute;
+    top: 470px;
+    left: 90px;
+    color: #b7adad;
+    font-family: 'arial';
+    font-size: 17px;
+        z-index: 0;
+
+}
+
+button.submit{
+    position: absolute;
+    top: 580px;
+    left: 90px;
+    font-size: 20px;
+    color: #ffffff;
+    background: #f75828e7;
+    padding: 20px 35px;
+    border: none;
+        z-index: 0;
+
+}
+
+button.learn{
+    position: absolute;
+    top: 580px;
+    left: 300px;
+    font-size: 20px;
+    color: #ffffff;
+    background: none;
+    padding: 20px 35px;
+    border: 2px solid #ffffff;
+        z-index: 0;
+
+}
+
+img.play{
+    position: absolute;
+    top: 330px;
+    right: 350px;
+    height: 100px;
+    width: 100px;
+        z-index: 0;
+
+}
+
+img.dash{
+    position: absolute;
+    top: 600px;
+    right: 530px;
+    width: 60px;
+        z-index: 0;
+
+}
+
+section.three{
+    position: absolute;
+    top: 580px;
+    right: 250px;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'arial';
+    z-index: 0;
+
+}
+
+img.arrow{
+    position: absolute;
+    top: 670px;
+    right: 100px;
+    width: 90px;
+    z-index: 0;
+}
+
+/* .........................................2nd Page............................................... */
+
+p.h3{
+    position: absolute;
+    top: 900px;
+    left: 350px;
+    font-size: 50px;
+    color: #000000;
+    text-align: center;
+}
+
+div.imageone{
+    position: absolute;
+    top: 1150px;
+    left: 90px;
+    padding: 0px;
+    margin: 0px;
+}
+div.imageone img{
+    position: relative;
+    height: 350px;
+    width: 300px;
+    z-index: 0;
+}
+div.soldier{
+    position: relative;
+    bottom: 90px;
+    left: 0px;
+    padding: 10px 154px 5px 10px;
+    z-index: 1;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.61);
+    backdrop-filter: blur(5px);
+}
+div.soldier span.war1{
+    font-size: 18px;
+    margin: 35px 5px;
+    color: #ffffff;
+    font-family: 'arial';
+}
+div.soldier span.act1{
+    color: #b7adad;
+    font-size: 13px;
+    margin: 50px 5px;
+    font-family: 'arial';
+}
+div.soldier img.star{
+    display: flex;
+    display: inline;
+    margin: 3px;
+    height: 15px;
+    width: 15px;
+    flex-wrap: nowrap;
+}
+button.download1{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    font-size: 15px;
+    color: #ffffff;
+    background: #ee5e32e7;
+    padding: 12px 20px;
+    border: none;
+}
+
+/* two */
+
+div.imagetwo{
+    position: absolute;
+    top: 1150px;
+    left: 440px;
+    padding: 0px;
+    margin: 0px;
+}
+div.warrior{
+    position: relative;
+    bottom: 90px;
+    left: 0px;
+    padding: 10px 155px 5px 10px;
+    z-index: 1;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.61);
+    backdrop-filter: blur(5px);
+}
+div.imagetwo img{
+    position: relative;
+    height: 350px;
+    width: 300px;
+    z-index: 0;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.warrior span.war2{
+    font-size: 18px;
+    margin: 35px 5px;
+    color: #ffffff;
+    font-family: 'arial';
+}
+div.warrior span.act2{
+    color: #b7adad;
+    font-size: 13px;
+    margin: 35px 5px;
+    font-family: 'arial';
+}
+div.warrior img.star{
+    display: flex;
+    display: inline;
+    margin: 2px;
+    height: 15px;
+    width: 15px;
+    flex-wrap: nowrap;
+}
+button.download2{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    font-size: 15px;
+    color: #ffffff;
+    background: #ee5e32e7;
+    padding: 12px 20px;
+    border: none;
+}
+
+
+div.imagethree{
+    position: absolute;
+    top: 1150px;
+    left: 790px;
+    padding: 0px;
+    margin: 0px;
+}
+div.imagethree img{
+    position: relative;
+    height: 350px;
+    width: 300px;
+    z-index: 0;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.ninja{
+    position: relative;
+    bottom: 90px;
+    left: 0px;
+    padding: 10px 163px 5px 10px;
+    z-index: 1;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.61);
+    backdrop-filter: blur(5px);}
+div.ninja span.war3{
+    font-size: 18px;
+    margin: 35px 5px;
+    color: #ffffff;
+    font-family: 'arial';
+}
+div.ninja span.act3{
+    color: #b7adad;
+    font-size: 13px;
+    margin: 35px 5px;
+    font-family: 'arial';
+}
+div.ninja img.star{
+    display: flex;
+    display: inline;
+    margin: 3px;
+    height: 15px;
+    width: 15px;
+    flex-wrap: nowrap;
+}
+button.download3{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    font-size: 15px;
+    color: #ffffff;
+    background: #ee5e32e7;
+    padding: 12px 20px;
+    border: none;
+}
+
+div.imagefour{
+    position: absolute;
+    top: 1150px;
+    right: 80px;
+    padding: 0px;
+    margin: 0px;
+}
+div.imagefour img{
+    position: relative;
+    height: 350px;
+    width: 300px;
+    z-index: 0;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.garela{
+    position: relative;
+    bottom: 90px;
+    left: 0px;
+    padding: 10px 142px 5px 10px;
+    z-index: 1;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.61);
+    backdrop-filter: blur(5px);}
+div.garela span.war4{
+    font-size: 18px;
+    margin: 35px 5px;
+    color: #ffffff;
+    font-family: 'arial';
+}
+div.garela span.act4{
+    color: #b7adad;
+    font-size: 13px;
+    margin: 35px 5px;
+    font-family: 'arial';
+}
+div.garela img.star{
+    display: flex;
+    display: inline;
+    margin: 3px;
+    height: 15px;
+    width: 15px;
+    flex-wrap: nowrap;
+}
+button.download4{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    font-size: 15px;
+    color: #ffffff;
+    background: #ee5e32e7;
+    padding: 12px 20px;
+    border: none;
+}
+
+
+img.fire{
+    position: absolute;
+    top: 1700px;
+    left: 90px;
+    height: 430px;
+    width: 550px;
+}
+
+p.five{
+    position: absolute;
+    top: 1700px;
+    left: 750px;
+    color: #000000;
+    font-size: 40px;
+}
+
+p.six{
+    position: absolute;
+    top: 1930px;
+    left: 750px;
+    color: #808080;
+    font-size: 17px;
+    font-family: 'arial';
+}
+
+button.submit1{
+    position: absolute;
+    top: 2050px;
+    left: 750px;
+    font-size: 17px;
+    color: #ffffff;
+    background: #ee5e32e7;
+    padding: 15px 40px;
+    border: none;
+}
+button.submit2{
+    position: absolute;
+    top: 2049px;
+    left: 950px;
+    font-size: 17px;
+    color: #ee5e32e7;
+    background: #ffffff;
+    padding: 15px 40px;
+    border: 2px solid #ee5e32e7;
+}
+
+p.seven{
+    position: absolute;
+    top: 2250px;
+    left: 90px;
+    font-size: 45px;
+    color: #000000;
+}
+
+button.arrow.left{
+    position: absolute;
+    top: 2330px;
+    right: 190px;
+    background: #f2ad98e7;
+    padding: 20px;
+    border: none;
+}
+button.arrow.left img{
+    width: 25px;
+}
+
+button.arrow.right{
+    position: absolute;
+    top: 2330px;
+    right: 100px;
+    background: #ff4810e7;
+    padding: 20px;
+    border: none;
+}
+button.arrow.right img{
+    width: 25px;
+}
+
+
+div.grid{
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 400px 400px;
+    row-gap: 60px;
+    column-gap: 100px;
+    position: relative;
+    top: 870px;
+    left: 40px;
+}
+
+/* 1 */
+div.grid.one img.image5{
+    position: absolute;
+    height: 320px;
+    width: 270px;
+}
+ul.ul.one{
+    position: relative;
+    top: 0px;
+    left: 300px;
+    list-style-type: none;
+    padding: 0px;
+}
+ul.ul.one li{
+    margin: 0px 25px 25px 25px;
+}
+li.eight{
+    font-size: 30px;
+    color: #000000;
+    font-family: 'arial';
+    font-weight: bold;
+}
+li.nine a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ee5e32e7;
+    font-weight: 600;
+    font-family: 'arial';
+}
+li.ten{
+    font-size: 17px;
+    color: #808080;
+    font-family: 'arial';
+}
+button.dwnld1{
+    color: #ffffff;
+    background: #ee5e32e7;
+    padding: 20px 40px;
+    border: none;
+    font-size: 20px;
+}
+
+/* 2 */
+
+div.grid.two img.image6{
+    position: absolute;
+    height: 320px;
+    width: 270px;
+}
+ul.ul.two{
+    position: relative;
+    top: 0px;
+    left: 300px;
+    list-style-type: none;
+    padding: 0px;
+}
+ul.ul.two li{
+    margin: 0px 25px 25px 25px;
+}
+li.eight{
+    font-size: 30px;
+    color: #000000;
+    font-family: 'arial';
+    font-weight: bold;
+}
+li.nine a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ee5e32e7;
+    font-weight: 600;
+    font-family: 'arial';
+}
+li.ten{
+    font-size: 17px;
+    color: #808080;
+    font-family: 'arial';
+}
+button.dwnld2{
+    color: #ffffff;
+    background: #ee5e32e7;
+    padding: 20px 40px;
+    border: none;
+    font-size: 20px;
+}
+
+/* 3 */
+div.grid.three img.image7{
+    position: absolute;
+    height: 320px;
+    width: 270px;
+}
+ul.ul.three{
+    position: relative;
+    top: 0px;
+    left: 300px;
+    list-style-type: none;
+    padding: 0px;
+}
+ul.ul.three li{
+    margin: 0px 25px 25px 25px;
+}
+li.eight{
+    font-size: 30px;
+    color: #000000;
+    font-family: 'arial';
+    font-weight: bold;
+}
+li.nine a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ee5e32e7;
+    font-weight: 600;
+    font-family: 'arial';
+}
+li.ten{
+    font-size: 17px;
+    color: #808080;
+    font-family: 'arial';
+}
+button.dwnld3{
+    color: #ffffff;
+    background: #ee5e32e7;
+    padding: 20px 40px;
+    border: none;
+    font-size: 20px;
+}
+
+/* 4 */
+div.grid.four img.image8{
+    position: absolute;
+    height: 320px;
+    width: 270px;
+}
+ul.ul.four{
+    position: relative;
+    top: 0px;
+    left: 300px;
+    list-style-type: none;
+    padding: 0px;
+}
+ul.ul.four li{
+    margin: 0px 25px 25px 25px;
+}
+li.eight{
+    font-size: 30px;
+    color: #000000;
+    font-family: 'arial';
+    font-weight: bold;
+}
+li.nine a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ee5e32e7;
+    font-weight: 600;
+    font-family: 'arial';
+}
+li.ten{
+    font-size: 17px;
+    color: #808080;
+    font-family: 'arial';
+}
+button.dwnld4{
+    color: #ffffff;
+    background: #ee5e32e7;
+    padding: 20px 40px;
+    border: none;
+    font-size: 20px;
+}
+
+
+/* ............................Third Page................................... */
+
+
+div.third.page{
+    position: relative;
+    top: 1850px;
+    left: 0px;
+    height: 1660px;
+    width: 100%;
+    background: #000000;
+}
+
+p.eleven{
+    position: absolute;
+    top: 40px;
+    left: 500px;
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+}
+
+img.twelve{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    height: 500px;
+    width: 400px;
+    z-index: 1;
+}
+
+section.fifteen{
+    position: absolute;
+    top: 360px;
+    left: 560px;
+    color: #808080;
+    font-size: 20px;
+    font-family: 'arial';
+}
+
+img.GOTW{
+    position: absolute;
+    top: 500px;
+    left: 490px;
+    height: 75px;
+    width: 1015px;
+    z-index: 0;
+}
+
+img.thirteen{
+    position: absolute;
+    top: 550px;
+    left: 580px;
+    height: 450px;
+    width: 330px;
+}
+
+img.fourteen{
+    position: absolute;
+    top: 750px;
+    left: 990px;
+    height: 250px;
+    width: 350px;
+}
+
+img.bg_gamer{
+    position: absolute;
+    top: 1150px;
+    left: 0px;
+    width: 100%;
+    height: 500px;
+    z-index: 0;
+    opacity: 40%;
+}
+
+span.sixteen{
+    position: absolute;
+    top: 1275px;
+    left: 500px;
+    z-index: 1;
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+}
+
+span.seventeen{
+    position: absolute;
+    top: 1400px;
+    left: 565px;
+    font-size: 20px;
+    color:#808080;
+    z-index: 1;
+    text-align: center;
+    font-family: 'arial';
+}
+
+input.start_last{
+    position: absolute;
+    top: 1500px;
+    left: 653px;
+    padding: 20px 45px;
+    background: #ee5e32e7;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'arial';
+    border: none;
+}
+
+
+/* ......................footer................................... */
+
+div.footer{
+    position: relative;
+    top: 1830px;
+    left: 0px;
+    height: 360px;
+    width: 100%;
+    background: #020110;
+}
+
+div.social a img.logo_last{
+    position: absolute;
+    top: 15px;
+    left: 120px;
+    height: 150px;
+    width: 150px;  
+}
+
+span.eighteen{
+    position: absolute;
+    top: 135px;
+    left: 120px;
+    font-size: 15px;
+    color: #808080;
+    font-family: 'arial';
+}
+
+ul.smedia{
+    position: absolute;
+    top: 180px;
+    left: 74px;
+    display: flex;
+}
+
+ul.smedia a{
+    margin: 10px;
+}
+
+div.flexlast{
+    position: absolute;
+    top: 50px;
+    left: 380px;
+    display: flex;
+    gap: 50px;
+    font-family: 'arial';
+}
+
+ul.articles li, ul.leagues li, ul.team li,ul.touch li{
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+ul.articles li a, ul.leagues li a, ul.team li a,ul.touch li a{
+    text-decoration: none;
+    color: #808080;
+    font-size: 18px;
+}
+
+.articles a.art, .leagues a.lea, .team a.tea, .touch a.get{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+div.last.tab{
+    position: absolute;
+    top: 5495px;
+    width: 99%;
+    height: 100px;
+    background: #09022b;
+    border-top: 3px solid #808080;
+    text-align: center;
+    font-size: 15px;
+    color: #808080;
+    font-family: 'monospace';
+}
+
+
+/* ............................Responsiveness............................... */
+
+
+img.logo.one:hover{
+    transform: rotateY(360deg);
+    transition: 2s;
+    filter: drop-shadow(5px 5px 5px #808080);
+    -webkit-filter: drop-shadow(5px 2px 2px #808080);   
+}
+
+
+ul.nav li a:hover{
+   color: #fb3d03e7;
+   font-weight: 900;
+   text-transform: uppercase;
+   margin: auto;
+   padding: auto;
+}
+ul.nav li a:before{
+    content: '';
+    position: absolute;
+    top: -14px;
+    left: 0;
+    width: calc(100% + 1px);
+    height: calc(200% + 1px);
+    border-top: 5px solid #808088;
+    border-bottom: 5px solid #808080;
+    transform: scaleY(2);
+    opacity: 0;
+    transition: all .3s;
+}
+ul.nav li a:after{
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 0;
+    width: 102%;
+    height: 200%;
+    background-color: #ffffff;
+    transform: scale(0);
+    opacity: 0;
+    transition: all .3s;
+    z-index: -1;
+}
+ul.nav li a:hover::before{
+    transform: scaleY(1);
+    opacity: 1;
+}
+ul.nav li a:hover::after{
+  transform: scaleY(1);
+  opacity: 1;
+}
+
+
+ul.sign a.signin:hover{
+    color: #ffffff;
+    background: #ee5e32e7;
+    padding: 20px 40px;
+    font-weight: 600;
+    transition: all 0.8s;
+}
+
+ul.sign:hover a{
+        color: #fff;
+        background: none;
+}
+ul.sign a.signup:hover{
+    color: #808080;
+    background: #ffffff;
+    padding: 20px 40px;
+    font-weight: 600;
+    transition: all 0.8s;
+}
+
+
+button.submit:before{
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+button.submit:active{
+    color: #000
+}
+button.submit:active:after{
+        background: transparent;
+}
+button.submit:hover:before{
+    opacity: 1;
+}
+button.submit:hover{
+    font-weight: 600;
+    padding: 25px 40px;
+    border: 2px solid #ffffff;
+}
+
+button.learn:before{
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+button.learn:active{
+    color: #000
+}
+button.learn:active:after{
+        background: transparent;
+}
+button.learn:hover:before{
+    opacity: 1;
+}
+button.learn:hover{
+    font-weight: 600;
+    padding: 25px 40px;
+}
+
+
+
+img.play:hover{
+    cursor: pointer;
+    animation: animate 10s linear infinite;
+    filter: drop-shadow(5px 5px 50px #ffffff);
+}
+
+section.three:before{
+    content:"The King Of Terania And Last Season XXIV";
+    position:absolute;
+    color:#ee5e32e7;
+    width:0%;
+    overflow:hidden;
+    transition: all 0.1s;
+}
+section.three:hover:before{
+    width: 100%;
+}
+section.three:hover{
+    font-weight: 600;
+}
+img.arrow:hover{
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+}
+
+p.h3:hover{
+    transition: all 1s;
+    padding: 2px;
+    color: #fff;
+    text-shadow: 0 0 5px #ee5e32e7,
+                0 0 25px #ee5e32e7,
+                0 0 50px #ee5e32e7,
+                0 0 100px #ee5e32e7;
+}
+
+
+div.imageone:hover, div.imagetwo:hover, div.imagethree:hover, div.imagefour:hover{
+    box-shadow: 10px 50px 20px 10px #000000;
+    padding: 0px;
+    margin: 10px;
+
+}
+
+
+div.soldier:hover .download1, div.warrior:hover .download2
+, div.ninja:hover .download3
+, div.garela:hover .download4
+    {
+    background: #ffffff;
+    color: #000000;
+    font-weight: 600;
+    transition: all 0.6s;
+    padding: 15px 25px;
+    cursor: pointer;
+    border: 2px solid #ee5e32e7;
+}
+
+img.fire:hover{
+    border: 10px double #ee5e32e7;
+    border-radius: 10px;
+    box-shadow: 10px 20px 10px 5px #000000;
+}
+
+p.six:hover{
+    background: #b7adad;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+button.submit1:hover{
+    background: #000000;
+    color: #ee5e32e7;
+    font-weight: 600;
+    padding: 20px 50px;
+    border: 2px solid #ee5e32e7 ;
+    cursor: pointer;
+}
+
+button.submit2:hover{
+    background: #000000;
+    color: #ffffff;
+    border: 2px solid #ee5e32e7 ;
+    font-weight: 600;
+    padding: 20px 50px;
+    cursor: pointer;
+}
+
+button.arrow.left:before{
+   
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+button.arrow.left:hover:before{
+    opacity: 1;
+}
+
+button.arrow.right:hover{
+
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+button.arrow.right:hover:before{
+    opacity: 1;
+}
+
+ul.one li button.dwnld1:hover, ul.two li button.dwnld2:hover
+, ul.three li button.dwnld3:hover
+, ul.four li button.dwnld4:hover
+    {
+    background: #000000;
+    border: 2px solid #ee5e32e7;
+    font-weight: 600;
+    padding: 25px 45px;
+    box-shadow: 5px 5px 5px 5px #ee5e32e7;
+}
+
+
+ul.one li:hover, ul.two li:hover
+, ul.three li:hover
+, ul.four li:hover{
+    text-decoration: underline;
+    transition:  all 0.5s;
+}
+
+     
+img.image5:hover, img.image6:hover, img.image7:hover, img.image8:hover{  
+    box-shadow: 10px 10px 20px rgba(0,1,1,0.2);
+    margin: 10px;
+    transform: scale(1.1);
+}
+
+img.GOTW:hover{
+  
+}
+
+img.thirteen:hover, img.twelve:hover, img.fourteen:hover{
+    transform: scale(1.1);
+    transform-origin: center;
+    transition: all 1s;
+    border: 10px solid #fff;
+    border-radius: 10px;
+}
+
+div.gamer:hover .sixteen{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 4px;
+    text-align: center;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: hide 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+
+
+input.start_last:hover{
+    content: '';
+    background: #ffffff;
+    color: #000;
+    font-weight: 600;
+    border: 5px solid #ee5e32e7;
+    border-radius: 10px;
+    padding: 25px 45px;
+    cursor: pointer;
+    position: absolute;
+    top: 1490px;
+    left: 650px;
+}
+
+img.logo_last:hover{
+    transform: scale(1.1);
+    transition: 2s;
+    filter: drop-shadow(5px 5px 10px #000);
+    -webkit-filter: drop-shadow(5px 5px 10px #000); 
+}
+
+ul.smedia a img:hover{
+    transform: scale(1.1);
+    transition: 2s;
+    filter: drop-shadow(5px 5px 3px #fff);
+    -webkit-filter: drop-shadow(5px 5px 3px #fff); 
+}
+
+ul.articles li:hover, ul.leagues li:hover, ul.team li:hover,ul.touch li:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+    text-align:start;
+}
+
+
+
+
+@keyframes animate {
+    100% {
+      scale: 1;
+    }
+    50% {
+      scale: 0.6;
+    }
+    0% {
+      scale: 1;
+    }
+  }
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }    
+}
+@keyframes hide {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+
+
+  /* ....................MEDIA QUERIES.................... */
+
+  @media screen  and (max-width: 1150px) {
+
+  }
+  
+  @media screen and (max-width: 780px) {
+  }
+  
+  
+  @media screen and (max-width: 620px) {
+  
+  }
+  @media screen and (max-width: 480px) {
+      
+  }
