@@ -1,0 +1,843 @@
+body{
+    background: #000000;
+    font-family: sans-serif;
+}
+
+img.logo{
+    position: absolute;
+    top: 20px;
+    left: 80px;
+}
+ul.header{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    flex:1 1 0;
+    position: absolute;
+    top: 19px;
+    left: 465px;
+}
+.header a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #808080;
+}
+ul.indent{
+    position: absolute;
+    right: 80px;
+    top: 20px;
+}
+ul.indent a{
+    text-decoration: none;
+    color: #ffffff;
+    background: #07a6fc;
+    padding: 10px 25px;
+    font-size: 21px;
+    border-radius: 22px;
+}
+div.one p{
+    position: absolute;
+    top: 100px;
+    left: 80px;
+    color: #ffffff;
+    font-size: 80px;
+}
+div.one p span{
+    color: #07a6fc;
+    font-style: italic;
+    font-weight: bold;
+}
+div.two{
+    position: absolute;
+    top: 500px;
+    left: 80px;
+    font-size: 25px;
+    color: #808080;
+}
+img.illustration{
+    position: absolute;
+    top: 170px;
+    right: 100px;
+}
+button.three{
+    position: absolute;
+    top: 650px;
+    left: 80px;
+    font-size: 20px;
+    color: #ffffff;
+    background: #07a6fc;
+    border: 1px #07a6fc solid;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+button.four{
+    position: absolute;
+    top: 650px;
+    left: 280px;
+    font-size: 20px;
+    color: #ffffff;
+    background: #000000;
+    border: 1px #ffffff solid;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+div.logotab{
+    position: absolute;
+    top: 820px;
+    display: flex;
+    white-space: nowrap;
+    border: 0px;
+    background: #212020;
+    padding: 40px 90px;
+}
+div.logotab img{
+    margin: 0px 97px;
+
+}
+
+/* ........................................2nd page.................................................. */
+
+div.second.page{
+    background-color: #ffffff;
+    position: relative;
+    top: 935px;
+    height: 1800px;
+    width: 100%;
+}
+p.five{
+    position: absolute;
+    top: 120px;
+    left: 380px;
+    color: #000000;
+    font-size: 50px;
+    font-weight: 600;
+}
+p.six{
+    position: absolute;
+    top: 250px;
+    left: 560px;
+    color: #808080;
+    font-size: 20px;
+    text-align: center;  
+}
+div.iconone{
+    position: absolute;
+    top: 450px;
+    left: 100px;
+    border: 2px #808080 solid;
+    border-radius: 40px;
+    padding: 25px 40px;
+    text-align: center;
+}
+div.icontwo{
+    position: absolute;
+    top: 400px;
+    left: 600px;
+    border: 2px #808080 solid;
+    background: #000000;
+    border-radius: 40px;
+    padding: 25px 40px;
+    text-align: center;
+    box-shadow: 0px 52px 30px 2px #808080;
+}
+div.iconthree{
+    position: absolute;
+    top: 450px;
+    right: 100px;
+    border: 2px #808080 solid;
+    border-radius: 40px;
+    padding: 25px 40px;
+    text-align: center;
+}
+p.seven, p.eleven{
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+}
+p.nine{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+p.eight, p.ten, p.twelve{
+    color: #808080;
+    font-size: 17px;
+}
+p.thirteen{
+    position: absolute;
+    top: 850px;
+    left: 80px;
+    color: #000000;
+    font-size: 60px;
+}
+ul.lists{
+    position: absolute;
+    top: 1100px;
+    left: 30px;    
+}
+ul.lists li{
+    list-style-type: none;
+    border: 2px #808080 solid;
+    border-radius: 50px;
+    font-size: 22px;
+    color: #000000;
+    padding: 30px 150px 30px 30px;
+    margin: 20px;
+    font-weight: bold;
+}
+ul.lists li.fourteen{
+    background: #07a6fc;
+    color: #ffffff;
+}
+ul.lists img{
+    position: absolute;
+    left: 540px;
+}
+
+ul.listss{
+    position: absolute;
+    top: 1120px;
+    right: 280px;
+    background: #000000;
+    padding: 15px 5px 15px 0px;
+    border-radius: 40px;
+}
+ul.listss li{
+    list-style-position: inside;
+    font-size: 18px;
+    list-style-type: none;
+    color: #ffffff;
+    background: #808080;
+    padding: 15px 100px 15px 6px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+/* .........................3rd page................................ */
+
+p.fifteen{
+    position: absolute;
+    top: 2800px;
+    left: 350px;
+    color:#ffffff;
+    font-size: 60px;
+    text-align: center;
+}
+
+img.arrow.one{
+    position: absolute;
+    top: 2920px;
+    left: 120px;
+}
+img.arrow.two{
+    position: absolute;
+    top: 2920px;
+    right: 120px;
+}
+
+div.regular{
+    position: absolute;
+    top: 3170px;
+    left: 80px;
+    background-color: #ffffff;
+    padding: 20px 30px 30px 40px;
+    border-radius: 30px;
+}
+p.sixteen, p.twentyfour{
+    font-size: 30px;
+    color: #000000;
+    font-weight: bold;
+}
+span.seventeen, span.twentyfive{
+    font-size: 45px;
+    color: #000000;
+    font-weight: 700;
+    padding: 0px;
+    margin: 0;
+}
+span.eighteen, span.twentytwo, span.twentysix{
+    font-size: 25px;
+    color: #808080;
+}
+p.nineteen, p.twentyseven{
+    font-size: 15px;
+    color: #000000;
+}
+p.nineteen{
+    margin-bottom: 8px;
+}
+ul.regular.list, ul.standard.list, ul.premium.list{
+    padding-left: 0px;
+}
+ul.regular.list li, ul.premium.list li{
+    list-style-type: none;
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 20px;
+    padding-left: 0px;
+}
+ul.regular.list li img, ul.standard.list li img, ul.premium.list li img{
+    margin-right: 10px;
+    margin-left: 0px;
+}
+button.select_one{
+    text-align: center;
+    padding: 20px 100px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: #ffffff;
+    background: #07a6fc;
+    font-size: 20px;
+    border: none;
+    border-radius: 40px;
+}
+
+div.standard{
+    position: absolute;
+    top: 3170px;
+    left: 600px;
+    background-color: #07a6fc;
+    padding: 20px 30px 30px 40px;
+    border-radius: 30px;
+}
+p.twenty{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+}
+span.twentyone{
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 0px;
+    margin: 0;
+}
+p.twentythree{
+        font-size: 15px;
+        color: #ffffff;
+}
+ul.standard.list li{
+    list-style-type: none;
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    padding-left: 0px;
+}
+button.select_two{
+    text-align: center;
+    padding: 20px 100px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: #07a6fc;
+    background: #ffffff;
+    font-size: 20px;
+    border: none;
+    border-radius: 40px;
+}
+
+div.premium{
+    position: absolute;
+    top: 3170px;
+    right: 80px;
+    background-color: #ffffff;
+    padding: 20px 30px 30px 40px;
+    border-radius: 30px;
+}
+
+hr.hr2, hr.hr3{
+    margin: 10px;
+    background: #808080;
+}
+hr.hr1{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: #808080;
+
+}
+/* ..............................4th page.................................. */
+
+div.fourth.page{
+    position: relative;
+    top: 2150px;
+    background: #ffffff;
+    height: 1050px;
+    width: 100%;
+}
+
+p.twentyeight{
+    position: absolute;
+    top: 90px;
+    left: 80px;
+    color: #000000;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+section.twentynine{
+    position: absolute;
+    top: 200px;
+    right: 200px;
+    color: #808080;
+    font-size: 20px;
+}
+
+div.blackbox{
+    position: absolute;
+    top: 400px;
+    left: 80px;
+    background: #000000;
+    padding: 40px 80px 40px 30px;
+    border-radius: 40px;
+    color: #ffffff;   
+}
+span.thirty{
+    font-size: 20px;
+}
+span.thirtyone{
+    font-size: 15px;
+    color: #808080;
+}
+p.thirtytwo{
+    font-size: 27px;
+}
+
+
+div.whitebox{
+    position: absolute;
+    top: 400px;
+    left: 900px;
+    background: #ffffff;
+    padding: 40px 10px 40px 30px;
+    border-radius: 40px;
+    color: #000000;
+    border: 2px #808080 solid;
+    overflow: clip;
+}
+span.thirtythree{
+    font-size: 20px;
+}
+span.thirtyfour{
+    font-size: 15px;
+    color: #808080;
+}
+p.thirtyfive{
+    font-size: 27px;
+}
+
+hr.blue{
+    position: absolute;
+    top: 900px;
+    left: 80px;
+    width: 150px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #07a6fc;
+    z-index: 1;
+}
+hr.grey{
+    position: absolute;
+    top: 900px;
+    left: 200px;
+    width: 1200px;
+    height: 10px;
+    border-radius: 10px;
+    background: #808080;
+}
+
+/* ......................5th page.............................. */
+
+p.thirtysix{
+    position: absolute;
+    top: 5100px;
+    left: 250px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+div.greybox{
+    position: absolute;
+    top: 5400px;
+    left: 140px;
+    background: #444343;
+    padding: 50px 30px 50px 30px;
+    border-radius: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+form{
+    display: flex;
+    gap: 30px;
+}
+input::placeholder{
+    color: #b7acac;
+}
+input[type=text], input[type=email], input[type=password]{
+    text-align: left;
+    color: #ffffff;
+    padding: 20px 50px 20px 10px;
+    border-radius: 30px;
+    background: #656161;
+    border: none;
+    font-size: 20px;
+}
+input[type=submit]{
+    color: #ffffff;
+    text-align: center;
+    background: #07a6fc;
+    border-radius: 30px;
+    font-size: 20px;
+    border: none;
+    padding: 20px 50px;
+}   
+
+hr.hr4{
+    position: absolute;
+    top: 5700px;
+    left: 80px;
+    background: #ffffff;
+    width: 1370px;
+}
+
+div.lastflex{
+    position: absolute;
+    top: 5800px;
+    left: 80px;
+    display: flex;
+    flex: 4 4 0;
+    flex-wrap: wrap;
+    gap: 150px;
+    flex-direction: row;
+}
+div.lastflex ul li{
+    margin: 20px;
+}
+ul.thirtyseven li a, ul.thirtyeight li a, ul.thirtynine li a, ul.forty li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #808080;
+}
+ul.thirtyseven a.h, ul.thirtyeight a.h, ul.thirtynine a.h, ul.forty a.h{
+    font-size: 30px;
+    color: #ffffff;
+}
+hr.hr5{
+    position: absolute;
+    top: 6150px;
+    left: 80px;
+    background: #ffffff;
+    width: 1370px;
+}
+
+img.logo.footer{
+    position: absolute;
+    top: 6200px;
+    left: 80px;
+    width: 200px;
+}
+p.loki{
+    font-size: 25px;
+    color: #808080;
+    position: absolute;
+    top: 6700px;
+    left: 300px;
+}
+/* ...........................RESPPONSIVENESS....................... */
+
+img.logo:hover{
+    cursor: pointer;
+    height: 60px;
+    transition: all 0.65s;
+	transform: rotateX(360deg);
+}
+
+ul.header li a:hover{
+    background: #07a6fc;
+    padding: 20px;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+ul.indent a:hover{
+    color: #07a6fc;
+    background: #ffffff;
+    padding: 20px 50px;
+    transition: all 0.6s;
+}
+
+img.illustration:hover{
+    transition: all 2s;
+	transform: rotateY(360deg);
+}
+
+button.three:hover{
+    background: #000000;
+    padding: 20px 40px;
+    position: absolute;
+    top: 640px;
+    left: 80px;
+    color: #07a6fc;
+}
+
+button.four:hover{
+    background: #07a6fc;
+    color: #000000;
+    padding: 20px 40px;
+    position: absolute;
+    top: 640px;
+    left: 280px;
+}
+
+div.logotab img:hover{
+    box-shadow: 5px 5px 20px 35px #07a6fc;
+    cursor: pointer;
+}
+
+p.five:hover{
+    color: #07a6fc;
+    text-decoration: underline;
+}
+
+div.iconone:hover, div.icontwo:hover, div.iconthree:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+    font-size: 35px;
+    box-shadow: 0px 52px 30px 2px #808080;
+}
+div.iconone:hover .seven, div.icontwo:hover .nine, div.iconthree:hover .eleven{
+    color: #07a6fc;
+}
+div.iconone:hover img, div.icontwo:hover img, div.iconthree:hover img{
+    transform: rotate(360deg);
+    transition: all 1.5s;
+}
+
+p.thirteen:hover{
+    opacity: 0.5;
+}
+ul.lists li.fourteen:hover{
+    color: #07a6fc;
+    background: #ffffff;
+    padding: 35px 200px 35px 40px;
+}
+ul.lists li:hover{
+    color: #ffffff;
+    background: #07a6fc;
+    padding: 35px 200px 35px 40px;
+    margin: 0;
+}
+ul.lists li img:hover{
+    cursor: pointer;
+}
+ul.listss li:hover{
+    background: #ffffff;
+    color: #000000;
+}
+
+p.fifteen:hover {
+    display: inline-block;
+    text-shadow: 0 0 0 #f5f5f5;
+    animation: smoky 6s 5s infinite;
+  }
+  
+  p.fifteen:nth-child(even):hover{
+    animation-name: smoky-mirror;
+  }
+  
+  @keyframes smoky {
+    60% {
+      text-shadow: 0 0 40px #f5f5f5;
+    }
+    to {
+      transform:
+        translate3d(15rem,-8rem,0)
+        rotate(-40deg)
+        skewX(70deg)
+        scale(1.5);
+      text-shadow: 0 0 20px #f5f5f5;
+      opacity: 0;
+    }
+  }
+  
+  @keyframes smoky-mirror {
+    60% {
+      text-shadow: 0 0 40px #f5f5f5; }
+    to {
+      transform:
+        translate3d(18rem,-8rem,0)
+        rotate(-40deg) 
+        skewX(-70deg)
+        scale(2);
+       text-shadow: 0 0 20px #f5f5f5;
+      opacity: 0;
+    }
+  }
+  
+  @for $item from 1 through 21 {
+    p.fifteen:nth-of-type(#{$item}){ 
+      animation-delay: #{(3 + ($item/10))}s; 
+    }
+  }
+  div.third.page:hover .arrow{
+    animation: animate 5s linear infinite;
+  }
+  @keyframes animate {
+    0% {
+        padding: 10px;
+      scale: 0.6;
+    }
+    50% {
+        padding: 20px;
+      scale: 1;
+    }
+    100% {
+        padding: 40px;
+      scale: 0.6;
+    }
+  }
+
+button.select_one:hover{
+    background: #000000;
+    color: #07a6fc;
+    padding: 35px 100px;
+    margin: 0px;
+    font-size: 25px;
+    font-weight: bold;
+}
+button.select_two:hover{
+    background: #000000;
+    color: #ffffff;
+    padding: 35px 100px;
+    margin: 0px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.select_one~p:hover{
+    color: #07a6fc;
+}
+
+div.regular:hover, div.premium:hover{
+    padding: 23px 35px 35px 45px;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+    box-shadow: 0 0 5px #07a6fc,
+                0 0 25px #07a6fc,
+                0 0 50px #07a6fc,
+                0 0 100px #07a6fc;
+}
+div.standard:hover{
+    padding: 23px 35px 35px 45px;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+    box-shadow: 0 0 5px #ffffff,
+                0 0 25px #ffffff,
+                0 0 50px #ffffff,
+                0 0 100px #ffffff;
+}
+
+p.twentyeight:before{
+        content:"What do our customers say?";
+        position:absolute;
+        color:#07a6fc;
+        width:0%;
+        overflow:hidden;
+        transition:all 0.5s;
+}
+p.twentyeight:hover:before{
+    width: 100%;
+}
+
+div.blackbox:hover{
+    transition: all 1s;
+	border-bottom:20px solid #07a6fc;
+	border-right:20px solid #07a6fc;
+    border-top:20px solid #07a6fc;
+    border-left:20px solid #07a6fc;
+}
+div.blackbox:hover .comma{
+    transform: rotateY(360deg);
+    transform: rotateX(180deg);
+    transition: all 0.7s;
+}
+div.whitebox:hover{
+    background: #000000;
+    color: #ffffff;
+    transition: all 1s;
+	border-bottom:20px solid #07a6fc;
+	border-right:20px solid #07a6fc;
+    border-top:20px solid #07a6fc;
+    border-left:20px solid #07a6fc;
+}
+div.whitebox:hover .comma{
+    transform: rotateY(360deg);
+    transform: rotateX(180deg);
+    transition: all 0.7s;
+}
+div.blackbox:hover .stars.one img, div.whitebox:hover .stars.one img{
+    padding: 20px;
+    height: 30px;
+}
+
+hr.blue:hover{
+    height: 20px;
+    position: absolute;
+    left: 82px;
+    top: 895px;
+    cursor: pointer;
+}
+
+input[type=text]:hover, input[type=email]:hover, input[type=password]:hover{
+    padding: 25px 55px 20px 11px;
+    border: 2px #07a6fc dashed;
+}
+
+input[type=submit]:hover{
+    background: #ffffff;
+    color: #000000;
+    padding: 30px 55px;
+    font-weight: bold;
+}
+
+ul.thirtyseven li:hover, ul.thirtyeight li:hover, ul.thirtynine li:hover, ul.forty li:hover{
+    color: #ffffff;
+}
+ul.thirtyseven a:hover, ul.thirtyeight a:hover, ul.thirtynine a:hover, ul.forty a:hover{
+    font-size: 25px;
+    color: #ffffff;
+
+}
+
+ul a.h:hover{
+    color: #07a6fc;
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    text-shadow: 1px 15px 15px #ffffff;
+}
+
+/* ...................................MEDIA QUERIES....................... */
+
+@media screen  and (max-width: 1150px) {
+
+}
+
+@media screen and (max-width: 780px) {
+}
+
+
+@media screen and (max-width: 620px) {
+
+}
+@media screen and (max-width: 480px) {
+    
+}

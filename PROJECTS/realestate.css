@@ -1,0 +1,700 @@
+body{
+    background: #e6ecf4;
+    ;
+    font-family: 'Helvetica';
+}
+
+img.bg{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    height: 900px;
+    width: 100%;
+    filter: brightness(60%);
+}
+
+img.logo{
+    position: absolute;
+    top: 0px;
+    left: 160px;
+    z-index: 0;
+    height: 160px;
+    width: 160px;
+}
+
+ul.nav{
+    position: absolute;
+    top: 50px;
+    right: 160px;
+    z-index: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 80px;
+}
+
+ul.nav li a{
+    font-size: 20px;
+    color: #d5cdcd;
+    text-decoration: none;
+}
+
+hr.hr1{
+    position: absolute;
+    top: 140px;
+    left: 120px;
+    width: 1300px;
+    background: #d5cdcd;
+    border-radius:5px ;
+}
+
+p.one{
+    position: absolute;
+    top: 210px;
+    left: 160px;
+    z-index: 0;
+    color: #ffffff;
+    font-size: 75px;
+    font-weight: 600;
+}
+
+p.two{
+    position: absolute;
+    top: 480px;
+    left: 160px;
+    z-index: 0;
+    font-size: 20px;
+    color: #d5cdcd;
+}
+
+button.learn{
+    position: absolute;
+    top: 580px;
+    left: 160px;
+    z-index: 0;
+    font-size: 20px;
+    color: #ffffff;
+    background: #6663e9;
+    font-weight: 600;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 30px;
+}
+
+
+div.logo.tab{
+    position: absolute;
+    top: 800px;
+    left: 80px;
+    background: #ffffff;
+    border-radius: 30px;
+    padding: 70px 130px;
+    margin: 0;
+}
+
+ul.logo_tab{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 80px;
+}
+
+ul.logo_tab li{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+p.three{
+    position: absolute;
+    top: 1100px;
+    left: 510px;
+    font-size: 65px;
+    text-align: center;
+    color: #000000;
+    font-weight: 600;
+}
+
+
+
+div.img1{
+    position: absolute;
+    top: 1400px;
+    left: 160px;
+}
+div.img1 img, div.img2 img, div.img3 img, div.img4 img, div.img5 img, div.img6 img, div.img7 img, div.img8 img, div.img9 img{
+    height: 350px;
+    width: 350px;
+    z-index: 0;
+    border-radius: 30px;
+}
+div.four, div.seven, div.ten {
+    position: absolute;
+    bottom: -50px;
+    left: 20px;
+    margin: 0;
+    padding: 20px 170px 20px 20px;
+    z-index: 1;
+    border: none;
+    background: #ffffff;
+    border-radius: 20px;
+}
+
+div.thirteen, div.sixteen{
+    position: absolute;
+    bottom: -50px;
+    left: 20px;
+    margin: 0;
+    padding: 20px 150px 20px 10px;
+    z-index: 1;
+    border: none;
+    background: #ffffff;
+    border-radius: 20px;
+}
+
+div.nineteen, div.twentytwo{
+    position: absolute;
+    bottom: -50px;
+    left: 20px;
+    margin: 0;
+    padding: 20px 125px 20px 10px;
+    z-index: 1;
+    border: none;
+    background: #ffffff;
+    border-radius: 20px;
+}
+
+div.twentyfive{
+    position: absolute;
+    bottom: -50px;
+    left: 20px;
+    margin: 0;
+    padding: 20px 130px 20px 10px;
+    z-index: 1;
+    border: none;
+    background: #ffffff;
+    border-radius: 20px;
+}
+
+div.twentyeight{
+    position: absolute;
+    bottom: -50px;
+    left: 20px;
+    margin: 0;
+    padding: 20px 185px 20px 20px;
+    z-index: 1;
+    border: none;
+    background: #ffffff;
+    border-radius: 20px;
+}
+
+
+span.five, span.eight, span.eleven, span.fourteen, span.seventeen, span.twenty, span.twentythree, span.twentysix, span.twentynine{
+    font-size: 25px;
+    color: #000000;
+    font-weight: 600;
+
+}
+span.six, span.nine, span.twelve, span.fifteen, span.eighteen, span.twentyone, span.twentyfour, span.twentyseven, span.thirty{
+    font-size: 20px;
+    color: #6663e9;
+    font-weight: 600;
+}
+button.detail{
+    position: absolute;
+    top: 35px;
+    right: 20px;
+    background: #6663e9;
+    font-size: 15px;
+    color: #ffffff;
+    padding: 20px 35px;
+    border: none;
+    border-radius: 30px;
+}
+
+
+div.img2{
+    position: absolute;
+    top: 1450px;
+    left: 580px;
+}
+
+
+div.img3{
+    position: absolute;
+    top: 1500px;
+    right: 160px;
+}
+
+div.img4{
+    position: absolute;
+    top: 2050px;
+    left: 160px;
+}
+
+
+div.img5{
+    position: absolute;
+    top: 2000px;
+    left: 580px;
+}
+
+
+div.img6{
+    position: absolute;
+    top: 1950px;
+    right: 160px;
+}
+
+div.img7{
+    position: absolute;
+    top: 2500px;
+    left: 160px;
+}
+
+div.img8{
+    position: absolute;
+    top: 2550px;
+    left: 580px;
+}
+
+div.img9{
+    position: absolute;
+    top: 2600px;
+    right: 160px;
+}
+
+
+/* ..............................Third page........................... */
+
+img.icon.one{
+    position: absolute;
+    top: 3200px;
+    left: 0px;
+    height: 530px;
+    width: 700px;
+    z-index: 0;
+}
+
+img.pic.one{
+    position: absolute;
+    top: 3150px;
+    left: 140px;
+    height: 460px;
+    width: 480px;
+    z-index: 1;
+    border-radius: 30px;
+}
+
+span.thirtyone{
+    position: absolute;
+    top: 3280px;
+    right: 200px;
+    color: #000000;
+    font-size: 65px;
+    font-weight: 600;
+}
+
+span.thirtytwo{
+    position: absolute;
+    top: 3470px;
+    right: 220px;
+    font-size: 16px;
+    color: #808080;
+}
+
+button.bird.one{
+    position: absolute;
+    top: 3550px;
+    right: 535px;
+    background: #6663e9;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 20px;
+}
+
+img.icon.two{
+    position: absolute;
+    top: 3900px;
+    right: 0px;
+    height: 530px;
+    width: 660px;
+    z-index: 0;
+}
+
+img.pic.two{
+    position: absolute;
+    top: 3850px;
+    right: 125px;
+    height: 460px;
+    width: 480px;
+    z-index: 1;
+    border-radius: 30px;
+}
+
+span.thirtythree{
+    position: absolute;
+    top: 3980px;
+    left: 160px;
+    color: #000000;
+    font-size: 65px;
+    font-weight: 600;
+}
+
+span.thirtyfour{
+    position: absolute;
+    top: 4170px;
+    left: 160px;
+    font-size: 16px;
+    color: #808080;
+}
+
+button.bird.two{
+    position: absolute;
+    top: 4250px;
+    left: 160px;
+    background: #6663e9;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 20px;
+}
+
+
+div.bluetab{
+    position: absolute;
+    top: 4600px;
+    left: 160px;
+    height: 500px;
+    width: 1200px;
+    background: #6663e9;
+    border: none;
+    border-radius: 30px;
+    color: #ffffff;
+}
+
+p.thirtyfive{
+    position: relative;
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+}
+
+p.thirtysix{
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+div.mail{
+    position: absolute;
+    top: 370px;
+    left: 300px;
+    padding: 15px 100px 15px 15px;
+    background: #4b48e2;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+input[type=email]{
+    text-align: right;
+    font-size: 20px;
+    color: #fff;
+    background: none;
+    border: none;
+}
+.mail input::placeholder{
+    color: #cedceb;
+}
+
+input.subs{
+    position: absolute;
+    top: 370px;
+    left: 720px;
+    padding: 15px 30px;
+    color: #6663e9;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    background: #ffffff;
+}
+
+/*...............footer..............................  */
+
+
+div.thirtyseven{
+    display: list-item;
+    list-style-type: none;
+    margin: 10px;
+}
+
+img.last.logo{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 5250px;
+    left: 200px;
+}
+
+ul.social{
+    position: absolute;
+    top: 5400px;
+    left: 180px;
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+span.thirtyeight{
+    position: absolute;
+    top: 5510px;
+    left: 200px;
+    font-size: 20px;
+    color: #808080;
+}
+
+ul.location{
+    position: absolute;
+    left: 750px;
+    top: 5300px;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+ul.contact{
+    position: absolute;
+    left: 950px;
+    top: 5300px;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+ul.legals{
+    position: absolute;
+    top: 5300px;
+    left: 1150px;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+ul.location li, ul.contact li, ul.legals li{
+    margin: 10px;
+}
+ul.location li a, ul.contact li a, ul.legals li a{
+    text-decoration: none;
+    color: #646363;
+}
+ul li a.b{
+    font-weight: 600;
+    color: #000000;
+}
+
+
+div.loki{
+    position: absolute;
+    top:6000px;
+    left: 50%;
+    color: #6663e9;
+    font-size: 15px;
+}
+hr.loki2{
+    position: absolute;
+    top: 5980px;
+    left: 160px;
+    width: 1200px;
+    border: 2px solid #4b48e2;
+}
+div.loki a{
+    text-decoration: line-through;
+    color: #4b48e2;
+}
+
+
+
+/* ..............................REsponsiveness.......... */
+
+
+img.logo:hover{
+    cursor: pointer;
+    animation: anim2 1s cubic-bezier(0.175, 0.885, 0.32, 0.275) infinite;
+    transform: scale(1.1);
+}
+ul.nav li a:hover{
+    position: relative;
+    top: -20px;
+}
+ul.nav li a:after,
+ul.nav li a:before {
+  content: "";
+  position: relative;
+  display: block;
+  border: 0px solid transparent;
+  width: 0%;
+  height: 0%;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+ul.nav li a:after {
+  width: 0%;
+  height: 0%;
+  bottom: 20px;
+  right: -5px;
+  border-bottom: 2px solid transparent;
+  border-right: 2px solid transparent; 
+}
+
+ul.nav li a:before {
+  width: 0%;
+  height: 0%;
+  top: 20px;
+  left: -5px;
+  border-top: 2px solid transparent;
+  border-left: 2px solid transparent;
+}
+
+ul.nav li a:hover::before,
+ul.nav li a:hover::after {
+  width: 100%;
+  height: 100%;
+  border-color: #fff;
+}
+p.one:hover{
+    background: #6663e9;
+    transition: .3s;
+}
+
+button.learn:hover{
+    color: #6663e9;
+    background: #ffffff;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+ul.logo_tab li a img:hover{
+    transform: scale(1.2);
+    filter: drop-shadow(2px 2px 2px #6663e9);
+}
+
+div.img1:hover img, div.img2:hover img, div.img3:hover img, div.img7:hover img, div.img8:hover img,div.img9:hover img{
+    box-shadow: 10px 10px 50px 10px #6663e9;
+    transform: rotate(10deg) translate(0%, 10%);
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+
+div.img4:hover img, div.img5:hover img, div.img6:hover img{
+    box-shadow: 10px 10px 50px 10px #6663e9;
+    transform: rotate(-10deg) translate(0%, 10%);
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+button.detail:hover{
+    color: #6663e9;
+    font-weight: 700;
+    background: #000000;
+    box-shadow: 0px 0px 10px 2px #6663e9;
+    cursor: alias;
+}
+
+div.position.one:hover .pic.one, div.position.two:hover .pic.two{
+    transform: rotateY(360deg);
+    transition: all 1.65s;
+}
+
+span.thirtyone, span.thirtythree{
+    --c: #6663e9;
+    text-shadow:
+          7px var(--_t, 2.2em) #fff,
+          0 0 var(--_c,#000);
+    box-shadow: 20px var(--_t, 2.2em) #000;
+    clip-path: inset(0 -20px 1px 0);
+    background: linear-gradient(var(--c) 0 0) 0 var(--_t, 2.2em) no-repeat;
+    transition: 0.4s , clip-path 0.4s 0.4s;
+}
+span.thirtyone:hover, span.thirtythree:hover {
+    --_t: 0;
+    clip-path: inset(0 -20px calc(-1* 2.2em) 0);
+    transition: 0.4s 0.4s, clip-path 0.4s;
+}
+
+
+button.bird.one:hover, button.bird.two:hover{
+    background: #6663e9;
+    color: #000000;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+div.bluetab:hover .thirtyfive{
+    animation: animate 10s linear infinite;
+}
+
+input[type=email]:focus{
+    transform: scale(1.1);
+    position: relative;
+    left: 50px;
+
+}
+
+input.subs:hover{
+    transform: scale(1.1);
+    transition: 0.6s;
+    color: #000000;
+    cursor: pointer;
+    box-shadow: 5px 5px 1px 2px #000000;
+}
+
+ul.social li:hover{
+    transform: scale(1.1);
+    transition: all 0.6s;
+}
+
+ul.location li a:hover, ul.contact li a:hover, ul.legals li a:hover{
+    font-weight: 600;
+    color: #6663e9;
+    margin: 10px;
+}
+/* ............................................................ */
+
+@keyframes anim2 {
+    0% {
+      opacity: 1;
+      transform: translateY(px);
+    }
+    25% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+    75% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  @keyframes animate {
+    0% {
+      scale: 1;
+    }
+    50% {
+      scale: 0.8;
+    }
+    100% {
+      scale: 1;
+    }
+  }
