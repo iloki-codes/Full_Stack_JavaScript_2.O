@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VS CODE CLONE BY LOKESH</title>
+         <!-- <link href="https://code.visualstudio.com/output.css" rel="stylesheet"> -->
+         <link rel="stylesheet" href="vscode.css">
+         <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class=" bg-gray-800">
+
+    <div class="fixed bg-gray-800 w-screen pt-2 pb-2 flex gap-2 justify-center z-10 md:justify-start">
+        <img class="h-8 w-8 md:ml-2 lg:h-6 lg:w-6 2xl:relative 2xl:left-44" src="./Assets/vs-code-logo-transp.png" alt="">
+        <a href="https://code.visualstudio.com/">
+        <span class="text-xl text-white lg:text-lg 2xl:relative 2xl:left-48 hoer:cursor-pointer">Visual Studio Code</span>
+    </div>
+    
+    <div class="absolute top-16 left-0 bg-gray-900 md:pl-6 md:pr-6 lg:top-3 lg:p-0 lg:left-60 lg:bg-gray-800 lg:z-20 lg:fixed 2xl:left-96 2xl:ml-10">
+        <ul class="flex flex-wrap gap-10 justify-center md:gap-14 lg:gap-6 ">
+            <li><a class="text-xl text-white lg:text-base hover:border-b-2 hover:border-neutral-200 hover:text-gray-200" href="https://code.visualstudio.com/">Docs</a></li>
+            <li><a class="text-xl text-white lg:text-base hover:border-b-2 hover:border-neutral-200 hover:text-gray-200" href="https://code.visualstudio.com/">Updates</a></li>
+            <li><a class="text-xl text-white lg:text-base hover:border-b-2 hover:border-neutral-200 hover:text-gray-200" href="https://code.visualstudio.com/">Blog</a></li>
+            <li><a class="text-xl text-white lg:text-base hover:border-b-2 hover:border-neutral-200 hover:text-gray-200" href="https://code.visualstudio.com/">API</a></li>
+            <li><a class="text-xl text-white lg:text-base hover:border-b-2 hover:border-neutral-200 hover:text-gray-200" href="https://code.visualstudio.com/">Extensions</a></li>
+            <li><a class="text-xl text-white lg:text-base hover:border-b-2 hover:border-neutral-200 hover:text-gray-200" href="https://code.visualstudio.com/">FAQ</a></li>
+            <li><a class="text-xl text-white lg:text-base hover:border-b-2 hover:border-neutral-200 hover:text-gray-200" href="https://code.visualstudio.com/">Learn</a></li>
+        </ul>
+    </div>
+
+    <div class="absolute top-48 right-16 flex m-0 scale-75 md:top-1 md:-right-10 md:z-20 lg:fixed 2xl:right-48">
+        
+        <div class="flex flex-row gap-2 items-center text-lg bg-gray-800 p-2 ">
+                <a href="https://code.visualstudio.com/"><img class="h-5 w-5" src="./Assets/Visual Studio Code - Code Editing. Redefined_files/search.svg" alt="search"></a>
+                <input class="text-gray-200 bg-transparent" type="text" placeholder="Search Docs">
+        </div>
+
+        <div class="flex flex-row gap-2 items-center text-lg bg-blue-700 p-2 hover:bg-blue-900">
+            <img class="h-5 w-5" src="./Assets/Visual Studio Code - Code Editing. Redefined_files/download.svg" alt="download">
+            <button class="text-white" type="submit">Download</button>
+        </div>
+    </div>
+
+    <div class="absolute top-64 left-0 bg-gray-900 md:top-20 md:mt-3 lg:top-9 lg:left-0 lg:w-screen">
+        <p class="text-gray-400 text-lg p-2 text-center md:text-base md:pl-20 md:pr-20"><a class="text-blue-500" href="https://code.visualstudio.com/">Version 1.76</a> is now available! Read about the new features and fixes from February.</p>
+    </div>
+
+    <div class="absolute top-96 mt-10 left-14 md:top-32 md:left-48 lg:left-10 2xl:left-44">
+
+        <ul class="text-center list-none">
+            <li class="text-white text-5xl mb-5">Code editing.<br><span class="font-bold">Redefined.</span></li>
+            <li class="text-lg text-gray-400 mb-5">Free. Built on open source. Runs everywhere.</li>
+            <li class="mb-5 ml-7 flex gap-1"><button class="bg-blue-700 text-lg text-white pt-1 pb-1 pl-7 pr-7 hover:bg-blue-900" type="submit">Download for Windows<br><span class="text-sm">Stable build</span></button><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="-10 -12 48 48" stroke-width="1.2" stroke="white" class="w-10 h-16 bg-blue-700 cursor-pointer p-0 hover:bg-blue-900"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg></li>
+            <li class="text-sm text-gray-400 mb-5"><a class="text-blue-500" href="https://code.visualstudio.com/">Web</a>, <a class="text-blue-500" href="https://code.visualstudio.com/">Insiders edition</a>, or <a class="text-blue-500" href="https://code.visualstudio.com/">other platforms</a></li>
+            <li class="text-sm text-gray-400 mb-5">By using VS Code, you agree to its<br><a class="text-blue-500" href="https://code.visualstudio.com/">license and privacy statement.</a></li>
+        </ul>
+    </div>
+
+    <span class="absolute top-96 mt-96 bg-zinc-800 font-bold left-28 text-white text-xl items-center md:top-40 md:left-60 lg:top-48 lg:left-20 2xl:left-48">! VS Code Demo Page For<br>Educational Purpose Only !</span>
+
+    <div class="absolute -bottom-96 -mb-20 left-10 md:-bottom-60 md:left-44 md:mb-0 lg:mb-0 lg:bottom-56 lg:left-96 lg:ml-28 xl:bottom-28 xl:ml-44 2xl:ml-80">
+        <img class="h-72 w-96 md:scale-150 lg:h-96 xl:w-full" src="./Assets/2023-03-26.png" alt="bg">
+    </div>
+
+    <div class="intel absolute -bottom-96 -mb-96 bg-white md:-mb-44 md:-bottom-96 lg:mb-0 lg:-bottom-24 xl:-bottom-44">
+        
+        <ul class="grid grid-rows-2 grid-cols-2 gap-x-24 gap-y-10 pl-1 pr-1 md:grid-rows-1 md:grid-cols-4 md:gap-x-20">
+
+            <li class="flex flex-col gap-2 items-center cursor-pointer text-xl text-gray-900 p-5 hover:bg-gray-200 hover:text-red-500"><img class="h-10 w-10" src="./Assets/bulb.png" alt="">IntelliSense</li>
+            <li class="flex flex-col gap-2 items-center cursor-pointer m-0 text-xl text-gray-900 p-5 hover:bg-gray-200 hover:text-blue-500"><img class="h-10 w-10" src="./Assets/debug-icon-2.png" alt="">Run and Debug</li>
+            <li class="flex flex-col gap-2 items-center cursor-pointer m-0 text-xl text-gray-900 p-5 hover:bg-gray-200 hover:text-green-500"><img class="h-10 w-10" src="./Assets/git-branch.png" alt="">Built-in Git</li>
+            <li class="flex flex-col gap-2 items-center cursor-pointer m-0 text-xl text-gray-900 p-5 hover:bg-gray-200 hover:text-yellow-500"><img class="h-10 w-10" src="./Assets/extensn.png" alt="">Extensions</li>
+        
+        </ul>
+    </div>
+
+<!-- Second Page -->
+
+    <div class="review absolute -bottom-96 -mb-96">
+        
+        <ul class="bg-gray-100 flex flex-wrap gap-5 pt-20 pb-20 pl-10 pr-10 list-none">
+            
+            <li class="flex gap-2">
+                <img class="h-16 w-16 rounded-full hover:drop-shadow-2xl hover:cursor-pointer" src="./Assets/dp.jpeg" alt="dp">
+                <div class="relative hover:drop-shadow-2xl">
+                    <h5 class="hover:inline hover:cursor-pointer hover:text-blue-500">Una Kravets</h5><br>
+                    <span class="text-sm text-gray-900 xl:text-lg">VS <a href="https://code.visualstudio.com/">@code</a> does so many things right. I’m constantly impressed by the UX, and customizing workspace / user preferences is no exception. 🙌🏼💯 It just keeps getting better ❤️</span>
+                </div>
+            </li>
+            
+            <li class="flex gap-2">
+                <img class="h-16 w-16 rounded-full hover:drop-shadow-2xl hover:cursor-pointer" src="./Assets/dp.jpeg" alt="dp">
+                <div class="hover:inline">
+                    <h5 class="hover:cursor-pointer hover:text-blue-500">Jonathan Dunlap</h5><br>
+                    <span class="text-sm text-gray-900 xl:text-lg">VS Code will have deep remote development. You can connect to a container running a different OS and use any VS Code plugins, linting, debugging for that environment. 🔥🔥🔥</span>
+                </div>
+            </li>
+            
+            <li class="flex gap-2">
+                <img class="h-16 w-16 rounded-full hover:drop-shadow-2xl hover:cursor-pointer" src="./Assets/dp.jpeg" alt="dp">
+                <div class="hover:inline">
+                    <h5 class="hover:cursor-pointer hover:text-blue-500">Pavithra Kodmad</h5><br>
+                    <span class="text-sm text-gray-900 xl:text-lg">VS Code is my most used and favorite editor. I love being able to customize the editor - changing the layout, the icons, fonts and color scheme is so easy!</span>
+                </div>
+            </li>
+        
+        </ul>
+    
+    </div>
+
+    <div class="icon absolute -bottom-96 -mb-96">
+
+        <ul class="list-none gap-10 mt-20 mb-20 bg-white">
+
+            <li class="mb-20 pl-6 pr-6 pt-10 pb-10 md:flex">
+            
+                <img class="h-50 w-60 relative left-20 md:left-0 lg:h-60 lg:w-72 xl:scale-150 xl:left-20 xl:mt-10" src="./Assets/Visual Studio Code - Code Editing. Redefined_files/home-intellisense.svg" alt="i1">
+                
+                <div class="md:ml-10 xl:ml-44">
+
+                <span class="text-lg text-gray-400 lg:text-4xl">Meet IntelliSense.</span><br><br>
+            
+                <p class="text-sm text-gray-900 leading-loose lg:text-lg">Go beyond syntax highlighting and autocomplete with IntelliSense, which provides smart completions based on variable types, function definitions, and imported modules.</p>
+                
+                </div>
+            
+            </li>
+        
+            <li class="bg-gray-100 mb-20 pl-6 pr-6 pt-10 pb-10 md:flex">
+            
+                <img class="img h-50 w-60 relative left-20 md:left-96 md:ml-20 lg:h-60 lg:w-72 lg:ml-64 xl:scale-150 xl:ml-96   " src="./Assets/Visual Studio Code - Code Editing. Redefined_files/home-debug.svg" alt="i2">
+
+                <div class="md:-ml-80 lg:relative lg:-left-56 xl:-left-80">
+            
+                <span class="text-lg text-gray-400 lg:text-4xl">Print statement debugging is a thing of the past.</span><br><br>
+            
+                <p class="text-sm text-gray-900 leading-loose lg:text-lg ">Debug code right from the editor. Launch or attach to your<br>running apps and debug with break points, call stacks, and <br>an interactive console.</p>
+                </div>            
+            
+            </li>
+        
+            <li class="mb-20 pl-6 pr-6 pt-10 pb-10 md:flex">
+            
+                <img class="h-50 w-60 relative left-20 md:left-0 lg:h-60 lg:w-72 xl:scale-150 xl:left-20" src="./Assets/Visual Studio Code - Code Editing. Redefined_files/home-git.svg" alt="i3">
+            
+                <div class="md:ml-10 xl:ml-44">
+
+                <span class="text-lg text-gray-400 lg:text-4xl">Git commands built-in.</span><br><br>
+            
+                <p class="text-sm text-gray-900 leading-loose lg:text-lg">Working with Git and other SCM providers has never been easier. Review diffs, stage files, and make commits right from the editor. Push and pull from any hosted SCM service.</p>
+            </div>
+            </li>
+        </ul>
+    </div>
+
+<!-- Third Page -->
+    
+
+    <div class="lang absolute -bottom-96 -mb-96 bg-gray-100 pt-20 pb-20 xl:pl-5 xl:pr-5">
+        
+        <p class="text-center"><span class="text-2xl font-bold text-gray-500">VS Code for</span>
+            <br><br><br>
+            <ul class="text-sm text-gray-700 flex flex-wrap list-none gap-x-4 gap-y-5 justify-center lg:text-lg xl:text-xl">
+                <li><img class="h-8 w-8 inline" src="./Assets/Visual Studio Code - Code Editing. Redefined_files/javascript.svg" alt="python">JavaScript</li>
+                <li><img class="h-8 w-8 inline" src="./Assets/Visual Studio Code - Code Editing. Redefined_files/python.svg" alt="python">Python</li>
+                <li><img class="h-8 w-8 inline" src="./Assets/Visual Studio Code - Code Editing. Redefined_files/java.svg" alt="python">Java</li>
+                <li><img class="h-8 w-8 inline" src="./Assets/Visual Studio Code - Code Editing. Redefined_files/markdown.svg" alt="python">Markdown</li>
+                <li><img class="h-8 w-8 inline" src="./Assets/Visual Studio Code - Code Editing. Redefined_files/typescript.svg" alt="ts">Typescript</li>
+                <li><img class="h-8 w-8 inline" src="./Assets/Visual Studio Code - Code Editing. Redefined_files/cpp.svg" alt="cpp">C/C++</li>
+                <li><img class="h-8 w-8 inline" src="./Assets/Visual Studio Code - Code Editing. Redefined_files/json.svg" alt="python">JSON</li>
+                <li><img class="h-8 w-8 inline" src="./Assets/Visual Studio Code - Code Editing. Redefined_files/powershell.svg" alt="python">Powershell</li>
+                <li><img class="h-8 w-8 inline" src="./Assets/Visual Studio Code - Code Editing. Redefined_files/html.svg" alt="html">HTML/CSS</li>
+                <li><img class="h-8 w-8 inline" src="./Assets/Visual Studio Code - Code Editing. Redefined_files/csharp.svg" alt="c#">C#</li>
+                <li><img class="h-8 w-8 inline" src="./Assets/Visual Studio Code - Code Editing. Redefined_files/php.svg" alt="python">PHP</li>
+                <li><img class="h-8 w-8 inline" src="./Assets/Visual Studio Code - Code Editing. Redefined_files/yaml.svg" alt="yaml">YAML</li>
+            </ul>
+            <br><br>
+            <a class="text-xl font-bold text-blue-600 md:relative md:left-40 lg:left-72 xl:left-96 2xl:ml-40" href="https://code.visualstudio.com/">and many more languages on the Marketplace...</a>
+        </p>
+        <br><br>
+        <button class="relative left-24 pt-5 pb-5 pl-20 pr-20 bg-blue-700 text-xl text-white font-bold md:left-60 lg:left-96 xl:ml-20 2xl:ml-56 hover:bg-blue-900" type="submit">Get Started</button>
+    
+    </div>
+
+    <div class="dw1 absolute -bottom-96 -mb-96 bg-white pt-24 pb-24 flex flex-col items-center xl:flex-wrap xl:flex-row xl:justify-around xl:pt-0 xl:pb-0">
+        
+        <div class="m-20 xl:m-0 xl:p-0">
+            <img class="h-32 w-32 mb-16 hover:drop-shadow-2xl" src="https://code.visualstudio.com/assets/images/windows-logo.png" alt="wnds">
+            <button class="bg-blue-700 text-white text-lg flex gap-3 pt-5 pb-5 pl-10 pr-10 hover:bg-blue-900" type="submit"><img class="h-5 w-5" src="./Assets/Visual Studio Code - Code Editing. Redefined_files/download_yellow.svg" alt="windows">Windows</button>
+        </div>
+
+        <div class="m-20 xl:m-0 xl:p-0">
+            <img class="h-32 w-32 mb-16 hover:drop-shadow-2xl" src="https://code.visualstudio.com/assets/images/linux-logo.png" alt="linux">
+            <button class="bg-blue-700 text-white text-lg flex gap-3 pt-5 pb-5 pl-10 pr-10 hover:bg-blue-900" type="submit"><img class="h-5 w-5" src="./Assets/Visual Studio Code - Code Editing. Redefined_files/download_yellow.svg" alt="dwnld">.deb</button>
+        </div>
+
+        <div class="m-20 xl:m-0 xl:p-0">
+            <img class="h-32 w-32 mb-16 hover:drop-shadow-2xl" src="https://code.visualstudio.com/assets/images/apple-logo.svg" alt="mac">
+            <button class="bg-blue-700 text-white text-lg flex gap-3 pt-5 pb-5 pl-10 pr-10 hover:bg-blue-900" type="submit"><img class="h-5 w-5" src="./Assets/Visual Studio Code - Code Editing. Redefined_files/download_yellow.svg" alt="dwnld">Mac</button>
+        </div>
+    
+    </div>
+
+    <div class="end absolute -bottom-96 -mb-96 text-xl text-gray-600 font-bold text-center bg-gray-200 p-14 xl:text-2xl">
+        Want new features sooner?
+        Use <a class="text-blue-600" href="https://code.visualstudio.com/https://code.visualstudio.com/">vscode.dev </a>for quick edits online!
+        GitHub, Azure Repos, and local files.
+        <img class="mt-20 absolute h-80 w-96 drop-shadow-2xl md:ml-32 lg:ml-64 xl:ml-96 2xl:left-48" src="./Assets/Visual Studio Code - Code Editing. Redefined_files/Hundreds-of-Extensions.png" alt="100">
+        <br>
+        <p class="relative top-24 mt-96 text-lg text-gray-500 ">
+            <a class="text-blue-600" href="https://code.visualstudio.com/https://code.visualstudio.com/">License and Privacy Terms</a><br>
+            By downloading and using Visual Studio Code, you agree to the license terms and privacy statement. VS Code automatically sends telemetry data and crash dumps to help us improve the product. If you would prefer not to have this data sent please go see How to Disable Crash Reporting to learn how to disable it.
+        </p>
+    </div>
+
+<!-- footer -->
+
+    <div class="footer absolute -bottom-96 -mb-96 bg-zinc-800 pt-10">
+
+        <span class="ml-5 text-lg text-white">Hello From Seattle</span><br>
+        
+        <a class="ml-80 text-lg text-blue-300 lg:ml-5 2xl:ml-72" href="https://code.visualstudio.com/"><span class="">Follow VS Code</span></a>    
+        
+        
+        <ul class="relative m-5  text-lg text-white list-none flex gap-3 justify-center lg:text-2xl 2xl:-top-16 2xl:left-64 2xl:ml-96">
+            <a href="https://code.visualstudio.com/"><li class="hover:border-b-2 hover:border-neutral-200 hover:text-gray-200">Support</li></a>
+            <a href="https://code.visualstudio.com/"><li class="hover:border-b-2 hover:border-neutral-200 hover:text-gray-200">Privacy</li></a>
+            <a href="https://code.visualstudio.com/"><li class="hover:border-b-2 hover:border-neutral-200 hover:text-gray-200">Terms Of Use</li></a>
+            <a href="https://code.visualstudio.com/"><li class="hover:border-b-2 hover:border-neutral-200 hover:text-gray-200">License</li></a>
+        </ul>
+
+        <img class="ml-6 mt-10 h-20 w-60 2xl:relative 2xl:-top-40 2xl:left-96 2xl:ml-56" src="./Assets/Visual Studio Code - Code Editing. Redefined_files/microsoft-logo.png" alt="last logo">
+        <span class="ml-6 text-lg text-white 2xl:relative 2xl:-top-40 2xl:left-96 2xl:ml-56">© 2023 Microsoft</span><br>
+        <hr class="2xl:relative 2xl:-top-28"><br>
+
+        <a class="text-lg text-white ml-36 md:ml-72 lg:ml-96 2xl:ml-0" href="https://medium.com/@loki_codes">@Loki_Codes</a>
+</body>
+</html>

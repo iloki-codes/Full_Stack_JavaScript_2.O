@@ -1,0 +1,159 @@
+div.review{                                                                /*sm*/
+    position: absolute;
+    top: 1360px;
+}
+
+div.icon{
+    position: absolute;
+    top: 2010px;
+}
+
+div.intel{
+    width: 480px;
+}
+
+div.lang{
+    position: absolute;
+    top: 3360px;
+    height: 570px;
+}
+ 
+div.dw1{
+    position: absolute;
+    top: 5930px;
+    height: 1400px;
+    width: 480px;
+}
+
+div.end{
+    position: absolute;
+    top: 3900px;
+    width: 480px;
+    height: 950px;
+}
+
+div.footer{
+    position: absolute;
+    top: 6300px;
+    width: 480px;
+    height: 420px;
+}
+
+ @media screen and (min-width: 768px){                                                                /*md*/
+    div.intel{
+        width: 751px;
+    }
+    div.review{
+        top: 1313px;
+    }
+    div.icon{
+        top: 1720px;
+    }
+    div.lang{
+        top: 2665px;
+    }
+    div.dw1{
+        top: 3235px;
+        width: 768px;
+    }
+    div.end{
+        top: 4635px;
+        width: 768px;
+    }
+    div.footer{
+        top: 5590px;
+        width: 768px;
+    }
+}
+
+@media screen and (min-width: 1024px){                                                                /*lg*/
+    div.intel{
+        width: 1024px;
+    }
+    div.review{
+        top: 833px;
+    }
+    div.icon{
+        top: 1240px;
+    }
+    div.lang{
+        top: 2440px;
+    }
+    div.dw1{
+        top: 3000px;
+        width: 1024px;
+    }
+    div.end{
+        top: 4400px;
+        width: 1024px;
+    }
+    div.footer{
+        top: 5350px;
+        width: 1024px;
+    }
+}
+
+@media screen and (min-width: 1280px){                                                                /*xl*/
+    img.img{
+        position: relative;
+        left: 50px;
+    }
+    div.intel{
+        width: 1280px;
+    }
+    div.review{
+        top: 913px;
+    }
+    div.icon{
+        top: 1345px;
+    }
+    div.lang{
+        top: 2585px;
+    }
+    div.dw1{
+        top: 3155px;
+        width: 1280px;
+        height: 500px;
+    }
+    div.end{
+        top: 3655px;
+        width: 1280px;
+    }
+    div.footer{
+        top: 4500px;
+        width: 1280px;
+    }
+}
+
+@media screen and (min-width: 1536px){                                                                /*2xl*/
+    img.img{
+        position: relative;
+        left: 650px;
+    }
+    div.intel{
+        width: 1536px;
+    }
+    div.review{
+        top: 913px;
+    }
+    div.icon{
+        top: 1313px;
+    }
+    div.lang{
+        top: 2553px;
+        width: 1536px;
+    }
+    div.dw1{
+        top: 3100px;
+        width: 1536px;
+        height: 500px;
+    }
+    div.end{
+        top: 3595px;
+        width: 1536px;
+    }
+    div.footer{
+        top: 4400px;
+        width: 1536px;
+    }
+}
