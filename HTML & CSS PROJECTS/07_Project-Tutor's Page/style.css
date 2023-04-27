@@ -1,0 +1,172 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+div.container{
+    font-family: 'calibri';
+    display: flex;
+}
+
+img[src="./assets/Logo.png"]{
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    height: 35px;
+    width: 90px;
+}
+
+div.grow-list{
+    position: absolute;
+    top: 65px;
+    left: 230px;
+}
+
+ul.list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    list-style-type: none;
+}
+
+ul.list li{
+    font-size: 15px;
+    color: #9a9797;
+}
+
+div.button-group{
+    position: absolute;
+    top: 70px;
+    right: 100px;
+}
+
+button.nav-button{
+    background-color: #3111af; 
+    color: #ffffff;
+    font-size: 15px ;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+
+}
+
+div.banner-container{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    display: inline;
+    inline-size: 370px;
+    overflow-wrap: break-word;
+}
+
+div.banner-container div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+h1.heading-text{
+    font-size: 70px;
+    color: #2f096b;
+    margin: 0px;
+}
+
+p.description{
+    font-size: 18px;
+    color: #9a9797;
+}
+
+h1.heading-text span{
+    color: #3111af;
+}
+
+button.nav-button.btn{
+    background-color: #3111af;
+    font-size: 15px;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+    font-weight: 600;
+}
+
+img[src="./assets/Header Illustration.png"]{
+    position: absolute;
+    top: -30px;
+    left: 580px;
+    display: inline;
+    height: 550px;
+    width: 850px;
+}
+
+a.loki{
+    position: absolute;
+    bottom: 0px;
+    font-size: 15px;
+    color: #2f096b;
+    text-decoration: none;
+    background-color: #9a9797;
+    border-radius: 10px;
+}
+
+
+/* RESPONSIVENESS */
+
+img[src="./assets/Logo.png"]:hover{
+    cursor: pointer;
+    filter: drop-shadow(10px 5px 5px #2f096b);
+}
+
+ul.list li:hover{
+    cursor: pointer;
+    color: #000000;
+    transition: 0.2s;
+    font-weight: 600;
+}
+
+button.nav-button:hover{
+    cursor: pointer;
+    background-color: #2f096b;
+    color: #ebe3e3;
+}
+
+h1.heading-text:before{
+    content: "We Help You Crush Your Competition";
+    position: absolute;
+    color: #eb687e;
+    width: 0%;
+    overflow: hidden;
+    transition: all 0.2s;
+  }
+  h1.heading-text:hover:before{
+    width: 100%;
+  }
+
+button.nav-button.btn:hover{
+    cursor: pointer;
+    background-color: #2f096b;
+    color: #e3d8d8;
+}
+
+a.loki:hover{
+    background-color: #3111af;
+    color: #ffffff;
+    padding: 10px;
+}
+
+
+/* MEDIA QUERIES */
+
+@media  and (max-width: 1280px) {
+    
+}
+
+@media  and (max-width: 1024px) {
+    
+}
+@media  and (max-width: 768px) {
+    
+}
+
+@media  and (max-width: 480px) {
+    
+}
