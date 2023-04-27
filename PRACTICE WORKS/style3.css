@@ -1,0 +1,173 @@
+body, ul, h1, h2, a, li,{
+margin:0;
+padding:0;
+font-family:arial;
+}
+header{
+    background-color: red;
+    padding:20px;
+    text-align:center;
+    position:fixed;
+    width:100%;
+    z-index:1;
+    top:0;
+    left:0;
+}
+header h1{
+    color:white;
+    border:8px solid white;
+    padding:6px 12px;
+    display:inline-block;
+    border-radius: 1.5em;
+}
+.banner{
+    position: relative;
+}
+.banner img{
+    max-width: 100%;
+}
+.banner h2{
+    font-size:44px;
+    }
+    .banner h2 span{
+        font-size:1em;
+    }
+.banner .welcome{
+    background-color: #feb614 ;
+    color:#3b0606;
+    margin:auto;
+    padding:30px;
+    position: absolute;
+    left:0px;
+    top:30%;
+}
+
+nav{
+    background-color:rgb(158, 173, 187);
+    padding:20px;
+    position:sticky;
+    top:149px;
+}
+nav ul{
+    white-space:nowrap;
+    max-width:1200px;
+    margin:0 auto;
+}
+nav li{
+    width:25%;
+    display:inline-block;
+    font-size:24px;
+    text-align: center;
+}
+nav li a{
+    text-decoration:none;
+    color:#4b4b4b;
+}
+.join p{
+    color:green;
+    font-size:25px;
+}
+main{
+    max-width:100%;
+    width:1200px;
+    margin:80px auto;
+    padding:0px 40px;
+    box-sizing:border-box;
+}
+article h2{
+    text-align:center;
+    font-family: monospace;
+    color:red;
+    font-size:40px ;
+    border:5px dotted yellowgreen ;
+    border-radius:2px;
+}
+article p{
+    color:#4b4b4b;
+    line-height: 4em;
+    max-width:100%;
+}
+.images{
+    text-align:center;
+    margin:80px 1px;
+}
+.images li{
+    width:30%;
+    display:inline-block;
+    margin:2opx 40%;
+}
+.images li img{
+    width:100%;
+}
+section.join{
+    background: #f4f4f4;
+    text-align:center;
+    padding:60px 20px:
+    color:#4b4b4b;
+}
+section.join h2{
+    font-size:36px;
+}
+form input{
+    margin: 20px 0;
+    padding:10px 20px;
+    font-size:24px;
+    border-radius:28px;
+    border:4px solid white;
+}
+footer{
+    background:#f63232;
+    color:white;
+    padding:10px;
+    text-align:center;
+}
+/*PSEUDO CLASSES*/
+nav li a:hover{
+    text-decoration: underline;
+}
+form input:focus{
+    border:4px dashed #f63232;
+}
+form input:valid{
+    border:4px solid green;
+}
+nav li:first-child{
+    border:3px solid #f63232;
+}
+/*PSEUDO ELEMENTS*/
+article p::first-line{
+    font-weight:bold;
+}
+p::selection{
+    background-color: #f63232;
+    color: white;
+}
+/*RESPONSIVE WEBSITE DESIGNS*/
+@media screen and (max-width:930px){
+    .banner .welcome h2{
+        font-size:30px;
+    }
+    nav li{font-size: 18px;}
+}
+@media screen and (max-width:784px) {
+    .banner .welcome h2{font-size:25px;}
+    nav li{font-size: 12px;}
+}
+@media screen and (max-width:650px){
+    .banner .welcome h2 {font-size:10px; position: relative;}
+    }
+    .banner .welcome br{display: none;} 
+    .images li {width:100%;
+     margin: 20px auto;
+     display:block;
+}
+@media screen and (max-width:600px) {
+    nav li {
+        font-size:8px;
+        position:absolute;
+        width:100%;
+        margin:12px 0;
+    }
+    header{position:relative;}
+ nav{top:0;}
+}

@@ -1,0 +1,18 @@
+h1{
+    color:brown;
+    font-weight:bold;
+    font-stretch: extra-expanded;
+}
+h2{
+    color:blueviolet;
+    font-family: monospace;
+}
+div{
+    color:orangered;
+}
+.dusri{
+    color:blue; /*div will change too( cause of same name of class)*/
+}
+div.pehli{
+    border:2px dashed brown;
+}

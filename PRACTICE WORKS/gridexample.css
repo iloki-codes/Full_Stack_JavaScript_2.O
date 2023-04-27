@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3.top{
+    background-color: #8a2be2;
+    text-align: center;
+    text-decoration:wavy;
+    font-family: cursive;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top:50px;
+}
+h3.bottom{
+    font-family: cursive;
+    background-color: #8a2be2;
+    text-align: center;
+    position: fixed;
+    left:0;
+    right:0;
+    bottom:50PX;
+}
+.keyboard-base {
+    max-width: 1085px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(197, 197, 197);
+    border-radius: 10px;
+    display: grid;                                                              /*GRID*/
+    grid-template-columns: repeat(30, 30px);
+    grid-template-rows: repeat(5, 60px);
+    grid-gap: 5px;
+}
+
+
+.key {
+    background-color: rgb(243, 243, 243);
+    border: 2px solid black;
+    border-radius: 5px;
+    grid-column: span 2;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 17px;
+}
+
+.key:hover {border: 1px solid #eeeeee;}
+.key-L:hover {border: 1px solid #eeeeee;}
+.key-O:hover {border: 1px solid #eeeeee;}
+.key-K:hover {border: 1px solid #eeeeee;}
+.key-E:hover {border: 1px solid #eeeeee;}
+.key-S:hover {border: 1px solid #eeeeee;}
+.key-H:hover {border: 1px solid #eeeeee;}
+
+.delete {
+    grid-column: span 4;
+}
+
+.tab {
+    grid-column: span 3;
+}
+
+.backslash {
+    grid-column: span 3;
+}
+
+.capslock {
+    grid-column: span 4;
+}
+
+.return {
+    grid-column: span 4;
+    background-color: #10ba3a;
+}
+
+.leftshift {
+    grid-column: span 5;
+}
+
+.rightshift {
+    grid-column: span 5;
+}
+
+.leftctrl {
+    grid-column: span 3;
+}
+
+.command {
+    grid-column: span 3;
+    font-size: 14px;
+}
+
+.space {
+    grid-column: span 13;
+    background-color: aqua;
+}
+.key-L{
+    background-color: #00ffff;
+    border: 2px solid black;
+    border-radius: 5px;
+    grid-column: span 2;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 17px;
+}
+.key-O{
+    background-color: #97f33a;
+    border: 2px solid black;
+    border-radius: 5px;
+    grid-column: span 2;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 17px;
+}
+.key-K{
+    background-color: #f95cfb;
+    border: 2px solid black;
+    border-radius: 5px;
+    grid-column: span 2;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 17px;
+}
+.key-E{
+    background-color: #f29925;
+    border: 2px solid black;
+    border-radius: 5px;
+    grid-column: span 2;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 17px;
+}
+.key-S{
+    background-color: #ee2731;
+    border: 2px solid black;
+    border-radius: 5px;
+    grid-column: span 2;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 17px;
+}
+.key-H{
+    background-color: #6a16be;
+    border: 2px solid black;
+    border-radius: 5px;
+    grid-column: span 2;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 17px;
+}

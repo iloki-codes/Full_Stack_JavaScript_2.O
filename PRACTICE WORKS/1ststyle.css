@@ -1,0 +1,21 @@
+h1{
+    color: pink;
+    text-decoration:underline;
+    font-family:Impact;
+ }
+ h2{
+    color:blueviolet;
+    text-shadow: 20px;
+    letter-spacing:4px;
+ }
+
+   div{
+    border:2px solid #b50d2f;
+    margin:20px;
+    padding:20px;
+   }
+ span{
+    border:4x;
+    margin:30px;
+    padding:25px;
+ }

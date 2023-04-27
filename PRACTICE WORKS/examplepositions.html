@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS POSITIONS' EXAMPLE</title>
+    <style>
+        img {
+            position: absolute;
+            left: 30px;
+            top: 25px;
+            z-index: -1;
+        }
+        .cube {
+             position: relative;
+        }
+
+        .dashed-box {
+            position: relative;
+            z-index: 1;
+            border: dashed;
+            height: 8em;
+            margin-bottom: 1em;
+            margin-top: 2em;
+        }
+        .gold-box {
+            position: absolute;
+            z-index: 3; /* put .gold-box above .pink-box and .dashed-box */
+            background: gold;
+            width: 80%;
+            left: 60px;
+            top: 3em;
+        }
+        .pink-box {
+            position: absolute;
+            z-index: 2; /* put .pink-box above .dashed-box */
+            background: #f30752;
+            width: 20%;
+            left: 65%;
+            top: -25px;
+            height: 7em;
+            opacity: 0.9;
+        }
+    </style>
+    </head>
+    
+    <body>
+        
+        <h2>EXAMPLE OF ALL CSS POSITIONS</h2><br><br><br><bvr><br><br><br>
+        <p>GAME OF THRONES BACKGROUND BY LOKESH A STUDENT OF INEURON</p><br>
+        <hr>
+        <div class="cube">
+            <img src="./Assets/dt.jpeg" alt="Mah Queen">
+            <div class="dashed-box">HOUSE TARGARYEN</div>
+            <div class="gold-box">HOUSE LANNISTERS</div>
+            <div class="pink-box">HOUSE STARK</div>
+          </div>
+    </body>
+</html>

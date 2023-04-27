@@ -1,0 +1,23 @@
+div{
+    font-size:larger;
+}
+
+div ul li {
+    background-color: burlywood;        /*INSIDA AN ELEMENT SELECTOR*/
+}
+
+div>li {
+ background-color: aquamarine;         /*DIRECT CHILD SELECTOR*/
+ font-size:xx-large;
+}
+
+span+p {
+    background-color: darkgoldenrod;   
+    font-family: cursive;
+}                                           /*Sibling selectors
+                                                 ~ and +  */
+.game~li {
+    background-color: #6fc76f;
+    font-style: italic;
+    text-decoration: underline;
+}

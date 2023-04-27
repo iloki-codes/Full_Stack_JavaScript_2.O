@@ -1,0 +1,28 @@
+<html>
+<head>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+     $("#special").click(function(e){ 
+
+        var x = e.pageX - this.offsetLeft;
+        var y = e.pageY - this.offsetTop; 
+
+        /* var c=document.getElementById("special"); */
+        var ctx= this.getContext("2d"); /*c.getContext("2d");*/
+        ctx.beginPath();
+        ctx.arc(x, y, 10,0, 2*Math.PI);
+        ctx.stroke();
+
+        $('#status2').html(x +', '+ y); 
+   }); 
+})  
+
+</script>
+<body style="background-color: aquamarine;"> 
+    <h2 id="status2">0, 0</h2>
+    <canvas style="width: 500px; height: 500px; border:1px ridge green;" id="special">
+
+    </canvas>
+</body>
+</html>

@@ -1,0 +1,130 @@
+body{
+    background: linear-gradient(#000000, #e6e9af);
+    height: auto;
+    position: relative;
+}
+h1{
+    font-family:'Times New Roman';
+    text-shadow: #f9e980;
+    text-align: center;
+    text-decoration: solid;
+    color: #6a0855;
+}
+hr{
+    color: #160a0a;
+    border: 5px solid #f9e980;
+    border-radius: 3px;
+}
+.emoji{
+    position: absolute;
+    left: 48%;;
+}
+.image{
+    width: 350px;
+    height: 450px;
+    position: absolute;
+    left: 38%;
+}
+.info{
+    text-align: center;
+    font-size: 38px;
+    color: #6a0855;
+}
+.left{
+    position: absolute;
+    left: 5px;
+    top: 650px;
+    border-right: 3px whitesmoke;
+    font-size: 22px;
+    text-decoration: double;
+    font-family: Tahoma;
+    color: #5e0502;
+    border-right: #160a0a;
+}
+.right{
+    position: absolute;
+    right: 5px;
+    top: 720px;
+    border-left: 13px whitesmoke;
+    font-size: 20px;
+    text-decoration: double;
+    font-family: Tahoma;
+    color: #5e0502;
+    border-left: 1px #0000;
+}
+span{
+    font-size: larger;
+    color: #050108;
+    text-decoration:dashed;
+}
+input, select{
+    padding: 10px;
+    border-radius: 1rem;
+}
+.right input{
+    padding: 20px;
+}
+label{
+    border: #c0cbcb;
+    backface-visibility: hidden;
+    margin: 7px;
+}
+.bottom{
+    border: #636c6c;
+    background: linear-gradient(to left, rgb(236, 222, 69), white);
+    padding: 50px;
+    position: relative;
+    top: 1200px;
+    left: 10px;
+}
+div{
+    display:inline;
+    padding: 11px;
+    border:1px #6a0855;
+    background: linear-gradient(to right, white, green);
+    display: table-row;
+}
+h4{
+    position: absolute;
+    left:39%
+    color: #0000ff;
+}
+.touch{
+    position: absolute;
+    left:38%;
+    color: #8a2be2;
+}
+.social{
+    display: flex;
+    flex:1 1 0;
+}
+.click{
+    border: #f9e980;
+    position: absolute;
+    border: #636c6c;
+}
+ul.sm{
+    display: flex;
+}
+.sm li{
+    text-decoration: none;
+    justify-content: space-between;
+}
+.sm a{
+    display:block;
+    text-decoration: none;
+}
+.sm img{
+    width: 30px;
+    height: 30px;
+    border:#636c6c;
+    border-radius: 5px;
+}
+.line{
+    position: absolute;
+    bottom: 0;
+    left:30%;
+    color: #636c6c;
+}
+
+

@@ -1,0 +1,94 @@
+body {
+    font-family:verdana;
+    margin:0;
+    background: #6c6464;
+}
+.wrapper{
+    width: 100%;
+    max-width: 960px;
+    margin:0 auto;
+    background: #eee;
+
+}
+.flex-container{
+    display:flex;
+}
+.box{
+    height:100px;
+}
+.one{background: red;}
+.two{background: blue;}
+.three{background: green;}
+.four{background: yellow;}
+
+#blocks{
+    display: flex;
+    margin: 50px;
+    justify-content:space-between;
+}
+#blocks div{
+    flex:0 0 100px;
+    padding: 40px 0;
+    text-align:center;
+
+}
+.one {order:4;}
+.two {order:0;}
+.three {order:3;}
+.four {order:2;}
+/*
+nav{
+    background: #333;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+nav li{flex:1 1 0;}
+nav a{
+    text-decoration:none;
+    text-align:center;
+    padding:10px;
+    color:#fff;
+    display:block;
+}
+nav a:hover{ background-color: #555;}
+nav ul{
+    display:flex;
+    justify-content: center;
+}
+
+nav {
+
+    justify-content:space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.social a {text-indent: -10000px;}
+a.tw{
+    background:url(twitter-logo-vector-png-clipart-1.png) no-repeat center;
+    background-size:contain;
+}
+a.fb{
+    background: url(logo-facebook-png6.webp) no-repeat center;
+    background-size: contain;
+}
+.social{
+    max-width: 80px;
+    margin: 0 auto;
+}
+nav ul.social{
+    flex:1 1 0;
+    flex-wrap: wrap;
+    width:100%;
+}
+nav ul.social li{
+    flex:1 1 0;
+}
+@media screen and (min-width:768px;)
+{
+    nav ul {display:flex;}
+    nav li{flex:1 1 0;}
+    nav{display:flex; justify-content:space-between;}
+    .social{margin:0;}
+}*/
