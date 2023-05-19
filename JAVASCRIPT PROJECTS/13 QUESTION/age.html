@@ -1,0 +1,31 @@
+<!-- QUESTION 13 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS assgn by loki</title>
+</head>
+<body>
+    <p id="result"></p>
+</body>
+</html>
+
+<script>
+
+let value = prompt("Enter Your Age");
+
+let number = (18-value);
+
+if (value >=  18)
+    {
+        document.getElementById("result").innerText="You are old enough to drive";
+    }
+
+else {
+    document.getElementById("result").innerText=`Wait for another ${number} of years to turn 18, then you'll be eligible to drive.`;
+}
+
+</script>

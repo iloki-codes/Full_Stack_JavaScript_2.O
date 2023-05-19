@@ -1,0 +1,45 @@
+<!-- QUESTION 15 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="result"></p>
+</body>
+</html>
+
+<script>
+
+let marks = prompt("Enter your obtained marks");
+
+
+if ( (marks >= 90) && (marks <= 100) ){
+    document.getElementById("result").innerText="You Got grade A";
+}
+
+else if ( (marks >= 70) && (marks <= 89) ){
+    document.getElementById("result").innerText="You Got grade B";
+}
+
+else if ( (marks >= 60) && (marks <= 69) ){
+    document.getElementById("result").innerText="You Got grade C";
+}
+
+else if ( (marks >= 50) && (marks <= 59) ){
+    document.getElementById("result").innerText="You Got grade D";
+}
+
+else if( (marks >= 0) && (marks <= 49) ){
+    document.getElementById("result").innerText="You Got grade F";
+}
+
+else {
+    alert("Enter Marks within the range of 0 to 100.")
+}
+
+</script>
