@@ -1,0 +1,36 @@
+<!-- QUESTION 28 -->
+
+<!-- (b). Making Square Patterns according to the user input -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pattern By Loki</title>
+</head>
+<body>
+    <p id="pattern"></p>
+</body>
+</html>
+
+<script>
+
+let input = prompt("Enter a positive integer to get a Square pattern.");
+
+    let i;
+    let j;
+
+    for ( i=1; i<=input ; i++ ) {
+
+        for ( j=1; j<=input; j++) {
+
+            document.getElementById("pattern").innerText += "*";
+        }
+
+        document.getElementById("pattern").innerHTML += "<br>";
+    }
+
+</script>

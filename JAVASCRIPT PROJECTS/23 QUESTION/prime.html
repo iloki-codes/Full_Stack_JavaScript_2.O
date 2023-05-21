@@ -1,0 +1,43 @@
+<!-- QUESTION 23 -->
+
+<!-- Write a program to check that the number given by the user is a prime number or not. -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>JS aggignment by loki</p>
+</body>
+</html>
+
+<script>
+
+const number = parseInt(prompt("Enter a positive integer"));
+
+if(number===1){
+    alert('1 is not a prime number');
+    
+}
+else if (number > 1) {
+    for (let i = 2; i < number; i++) {
+        number % i == 0;
+        alert(`${number} is a not prime number`);
+        }
+    }
+else if(number > 2){
+     for (let i = 2; i < number; i++) {
+        number % i == 1;
+        alert(`${number} is a prime number`);
+        }
+    }
+else{
+    alert('Enter a valid input');
+}
+
+</script>
