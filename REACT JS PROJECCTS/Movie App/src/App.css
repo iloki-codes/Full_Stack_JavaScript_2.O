@@ -1,34 +1,208 @@
+
+
+/* div.video{
+  position: absolute;
+  z-index: -1;
+  filter: brightness(45%);
+} */
+
+video.video{
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  filter: brightness(45%);
+
+}
+
 .App {
+  z-index: 1;
+  font-family: 'monospace';
+  background-repeat: repeat;
+  background-size: cover;
+  background-size: 100%;
+
+}
+
+
+div.main{
+  border: solid 1px #ffffff;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav{
+  background: none;
+  background-blend-mode: lighten;
+  padding: 5px 150px;
+  width: 1170px;
+  border-bottom: solid 1px #ffffff;
+}
+
+ul{
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+ul li{
+  list-style-type: none;
+}
+
+ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+div.body{
+  position: absolute;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p.heading{
+  font-size: 50px;
+  color: #ffffff;
+  font-weight: bolder;
+  filter: drop-shadow(10px 1px 5px #000000);
+  margin: 2px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p.sub{
+  color: #b3abab;
+  text-decoration: solid;
+  font-size: 18px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+form{
   display: flex;
   flex-direction: column;
+  gap: 30px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* 
+label{
+  margin: 5px;
+  font-size: 40px;
+  font-weight: 700;
+  font-style: oblique;
+  color: #f8e784;
+} */
+
+input.search{
+  font-size: 20px;
+  color: #f8e784;
+  background: none;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  padding: 20px 30px 20px 20px;
+  width: 500px;
 }
 
-@keyframes App-logo-spin {
+button{
+  padding: 20px;
+  color: #ffffff;
+  border: solid 1px #ffffff;
+  background: none;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+div.result{
+  position: absolute;
+  top: 400px;
+}
+
+div.list{
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: 30px 30px 30x 30px 30px 30px;
+  grid-template-rows: 40px 40px 40x 40px 40px 40px;
+  grid-gap: 20px;
+  background: none;
+  border: solid 1px #ffffff;
+  padding: 50px;
+  text-align: center;
+
+} 
+
+/* div.grid img.banner{
+  border: none;
+} */
+
+div.grid{
+  background: none;
+  border-bottom: solid 1px #ffffff;
+  border-radius: 30px;
+  color: #f8e784;
+  font-size: 18px;
+}
+
+
+
+/* p.noresult{
+  background: none;
+  border: solid 1px #ffffff;
+  padding: 10px 60px;
+  color: #2b0202;
+  font-weight: bolder;
+  font-size: 30px;
+  filter: drop-shadow(2px 2px 1px #ffffff);
+  background: hsla(58, 89%, 49%, 0.4);
+} */
+
+img.loki {
+  height: 50px;
+  pointer-events: none;
+  animation: spin 12s infinite;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+
+span.bar{
+  border-top: solid 1px #ffffff;
+  color: #ffffff;
+  font-size: 15px;
+  background: none;
+  background-blend-mode: lighten;
+  padding: 5px 150px;
+  position: fixed;
+  left: 570px;
+  bottom: 0px;
+}
+
+/* RESPONSIVENESS */
+
+input.search:hover{
+  box-shadow: 2px 15px 15px rgba(0, 0, 0, 0.8);
+}
+
+button:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 1s;
+  box-shadow: 2px 15px 5px rgba(0, 0, 0, 0.8);
+}
+
+@keyframes spin {
   from {
     transform: rotate(0deg);
   }
@@ -36,3 +210,49 @@
     transform: rotate(360deg);
   }
 }
+
+
+ul li a:hover{
+  position: relative;
+  top: -22px;
+}
+ul li a:after,
+ul li a:before {
+content: "";
+position: relative;
+display: block;
+border: 0px solid transparent;
+width: 0%;
+height: 0%;
+transition: all 0.5s ease;
+cursor: pointer;
+}
+
+ul li a:after {
+width: 0%;
+height: 0%;
+bottom: 22px;
+right: -5px;
+border-bottom: 2px solid transparent;
+border-right: 2px solid transparent; 
+}
+
+ul li a:before {
+width: 0%;
+height: 0%;
+top: 22px;
+left: -5px;
+border-top: 2px solid transparent;
+border-left: 2px solid transparent;
+}
+
+ul li a:hover::before,
+ul li a:hover::after {
+width: 100%;
+height: 100%;
+border-color: #fff;
+}
+
+
+
+/* Media Queries */
